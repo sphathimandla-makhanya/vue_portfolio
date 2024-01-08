@@ -7,12 +7,12 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import NavbarComp from '@/components/NavbarComp.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+   NavbarComp
   }
 }
 </script>
