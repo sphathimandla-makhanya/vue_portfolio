@@ -1,7 +1,145 @@
 {
+    "navbar":[
+        {
+            "id": "1", "link":"/home", "text": "Home"
+        },
+        {
+            "id": "1", "link":"/about", "text": "About"
+        },
+        {
+            "id": "1", "link":"/resume", "text": "Resume"
+        },
+        {
+            "id": "1", "link":"/project", "text": "Projects"
+        },
+        {
+            "id": "1", "link":"/review", "text": "Reviews"
+        },
+        {
+            "id": "1", "link":"/contact", "text": "Contacts"
+        }
+    ],
     "about": [
         {
-            "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "heading": "About me",
+            "description":"I am a polite and open minded young man who is passionate about life long learning. I live in Cape Town, Langa. I am looking for opportunity that will allow me to utilize my knowledge, skills and experience and allow me an opportunity for growth and career advancement."
         }
+    ],
+    "resume": [
+        {
+            "id": "1",
+            "heading": "Education",
+            "description": "I graduated high school in 2015 at Siphapheme High School. I attended University of Zululand for a bachelor of Science majoring in Geographical and Hydrological Sciences (2019).",
+            "img": ""
+        },
+        {
+            "heading": "Experience",
+            "description1": "Department of Agriculture, Land Reform and Rural Development At Chief Directorate: National Geo-Spatial Information Geographical Information Systems Intern (2021-2023 Impunga High School Educators assistance (2020)",
+            "img1": "https://drive.google.com/uc?id=1wXtWBjnLDSS4O7cVq9JjzoHcm7mUSfjz"
+        }
+    ],
+    "projects":[
+        {
+            "heading": "Projects"
+        },
+        {
+            "id":"",
+            "name": "Calculator", 
+            "img": "",
+            "github": "",
+            "vercel": ""
+        },
+        {
+            "id":"",
+            "name": "Keyboard", 
+            "img": "",
+            "github": "",
+            "vercel": ""
+        },
+        {
+            "id":"",
+            "name": "Ecommerce Website", 
+            "img": "",
+            "github": "",
+            "vercel": ""
+        },
+        {
+            "id":"",
+            "name": "Project 4", 
+            "img": "",
+            "github": "",
+            "vercel": ""
+        },
+        {
+            "id":"",
+            "name": "Project 5", 
+            "img": "",
+            "github": "",
+            "vercel": ""
+        },
+        {
+            "id":"",
+            "name": "Project 6", 
+            "img": "",
+            "github": "",
+            "vercel": ""
+        }
+
+    ],
+    "reviews": [
+        {
+            "person":"Damon Raffels",
+            "review": "S'phathimandla Makhanya is an extremely helpful, approachable man who fills any room with joy. He has an infectious personality that will never fail to cheer you up. He has a strong work ethic and intense focus when it comes to tasks and projects and will be an asset to any workforce",
+            "img1": ""
+        },
+        {
+            "person":"Qaqambile Mnika",
+            "review": "S’phathimandla Makhanya is a rare blend of quiet determination and brilliant coding talent. His ability to solve complex problems with elegant code is truly remarkable. Despite his quiet demeanor, he has a subtle sense of humor that lightens up our work environment. Yet, when the situation calls for it, he can switch to a serious mode, demonstrating a level of focus and dedication that is truly inspiring. His contributions to our team are invaluable and it’s a privilege to work alongside him.",
+            "img2": ""
+        },
+        {
+            "person":"Tauha Shaik",
+            "review": "S'phathimandla Makhanya is a exceptional individual. His calm and focused demeanor is an asset to him both in his relations with his colleagues as well as his work. His work ethic is impeccable and strive for excellence drives him him forward. Due to his kind nature his assistance can always be called upon and he is an asset to all those around him.",
+            "img3": ""
+        },
+        {
+            "person":"Onika Sileku",
+            "review": "S'phathimandla Makhanya enthusiasm for web development is admirable. his dedication to honing his skills and mastering different coding languages is truly inspiring. he approaches tasks with a creative mindset and a keen eye for functionality",
+            "img4": ""
+        },
+        {
+            "person":"Matthew Dean Brown",
+            "review": "S'phathimandla is a humble and dedicated individual. He shows consistency and hard work. He is extremely reliable and trustworthy.",
+            "img5": ""
+        },
+        {
+            "person":"Caela Morgan Ward",
+            "review": "S'phathimandla is a hard working individual who gives his best for any task given to him. He is known for always trying to help others and giving his best potential for anything he does. S'phathimandla is a self motivated person who knows when to be focused or when to relax. He is truly an asset to have around.",
+            "img6": ""
+        }
+    ], 
+    "contacts": [
+        {
+            "heading": "Contact me"
+        },
+        {
+            "name": "First Name"
+        },
+        {
+            "surname": "Last Name"
+        },
+        {
+            "call": "+27 123456789"
+        }, 
+        {
+            "email": "Email Address"
+        },
+        {
+            "message": "Type message here..."
+        },
+        {
+            "button": "Submit"
+        }
+
     ]
 }
