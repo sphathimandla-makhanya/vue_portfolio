@@ -1,9 +1,9 @@
 <template>
-  <h1>Reviews</h1>
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <h1>Reviews</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
       <div v-for="review in $store.state.reviews" :key="review" class="col">
-        <div class="card">
+        <div class="card m-3">
           <div class="card bg-black">
             <img :src="review.img" style="height: 245px; width: 325px;"/>
             <div class="card__content">
@@ -15,7 +15,6 @@
       </div>
   </div>
 </div>
-
 </template>
 
 <script>

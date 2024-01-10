@@ -17,6 +17,7 @@ export default createStore({
     setResume(state,data){
       state.resume=data
     },
+    
     setProject(state,data){
       state.projects=data
     },
@@ -32,9 +33,10 @@ export default createStore({
     },
     resumeData(context){
       axios.get('http://localhost:3000/resume')
-      .then((cv) => {console.log(cv.data[1]),
-      context.commit("setResume", cv.data[1])})
+      .then((cv) => {console.log(cv.data),
+      context.commit("setResume", cv.data)})
     },
+   
     projectsData(context){
       axios.get('http://localhost:3000/projects')
       .then((proj) => {console.log(proj.data),
