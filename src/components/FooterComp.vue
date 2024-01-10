@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid fixed-bottom">
+  <div class="container-fluid fixed-bottom bg-danger">
     <div class="row">
         <p class="lead">
             S'phathimandlaMakhanya&copy; <span>{{ currYear }}</span>

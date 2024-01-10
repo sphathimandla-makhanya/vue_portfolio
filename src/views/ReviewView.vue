@@ -6,7 +6,7 @@
       <div v-for="review in $store.state.reviews" :key="review" class="col">
         <div class="card m-3">
           <div class="card bg-black">
-            <img :src="review.img" style="height: 245px; width: 325px;"/>
+            <!-- <img :src="review.img" /> -->
             <div class="card__content">
               <p class="card__title">{{ review.person }}</p>
               <p class="card__description">{{ review.review }}</p>

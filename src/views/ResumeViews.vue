@@ -17,14 +17,14 @@
 
   <div v-for="resum in $store.state.resume" :key="resum" class="col">
     <div class="row row-cols-1 row-cols-md-4 g-4">
-      <!-- <div class="col"> -->
+      <div class="col">
     <div class="card h-100">
       <img :src="resum.img" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">{{ resum.name }}</h5>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
     </div>
 
   </div>
