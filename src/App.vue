@@ -1,15 +1,18 @@
 <template>
   <NavbarComp/>
+  <SpinnerComp/>
   <router-view/>
 </template>
 
 <script>
 
 import NavbarComp from '@/components/NavbarComp.vue'
+import  SpinnerComp from '@/components/SpinnerComp.vue'
 
 export default {
   components: {
-   NavbarComp
+   NavbarComp,
+   SpinnerComp
   }
 }
 </script>
