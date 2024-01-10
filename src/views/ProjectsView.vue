@@ -1,8 +1,8 @@
 <template>
-  <h1>Projects</h1>
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div v-for="project in $store.state.projects" :key="project" class="col">
+        <h1 class="">{{ project.heading }}</h1>
         <div class="card">
           <img :src="project.img" class="card-img-top" alt="">
           <div class="card-body">
@@ -24,7 +24,8 @@ export default {
   },
   mounted(){
     this.projectsData
-  }
+  },
+  
 }
 </script>
 

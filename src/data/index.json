@@ -27,23 +27,52 @@
     ],
     "resume": [
         {
-            "id": "1",
             "heading": "Education",
-            "description1": "I graduated high school in 2015 at Siphapheme High School. I attended University of Zululand for a bachelor of Science majoring in Geographical and Hydrological Sciences (2019).",
-            "img": "https://drive.google.com/uc?id=1wXtWBjnLDSS4O7cVq9JjzoHcm7mUSfjz"
+            "description": "I graduated high school in 2015 at Siphapheme High School. I attended University of Zululand for a bachelor of Science majoring in Geographical and Hydrological Sciences (2019).",
+            "img1": "https://drive.google.com/uc?id=1wXtWBjnLDSS4O7cVq9JjzoHcm7mUSfjz"
         },
         {
 
             "heading": "Experience",
             "description1": "Department of Agriculture, Land Reform and Rural Development At Chief Directorate: National Geo-Spatial Information Geographical Information Systems Intern (2021-2023 Impunga High School Educators assistance (2020)",
-            "img1": "https://drive.google.com/uc?id=15z66x9Y0sq-ZEnGTDoUQRMBxrn14obQo"
+            "img2": "https://drive.google.com/uc?id=15z66x9Y0sq-ZEnGTDoUQRMBxrn14obQo"
+        },
+        {
+            "name": "HTML",
+            "img":"https://drive.google.com/uc?export=download&id=1WuUUuOVl6O-6Y8D5MMDRWaYjec_woJlU"
+        },
+        {
+            "name": "CSS",
+            "img":"https://drive.google.com/uc?export=download&id=1yPCheAEA7-Fi_BEUPbW6m9-EHQKBN10e"
+        },
+        {
+            "name": "BOOTSTRAP",
+            "img":"https://drive.google.com/uc?export=download&id=1ydCoo1sZ5WjK19z4KD2IrqDNmY19IDR6"
+        },
+        {
+            "name": "JAVASCRIPT",
+            "img":"https://drive.google.com/uc?export=download&id=11sSC20chByKGpsD2w2YYTlxV5T-aDha-"
+        },
+        {
+            "name": "fIGMA",
+            "img":"https://drive.google.com/uc?export=download&id=1C60AlUzrjy3qKgt3qlgh6ikExrwm-dxG"
+        },
+        {
+            "name": "Vue.js",
+            "img":"https://drive.google.com/uc?export=download&id=1Ol-SKbmHRrxqo_WuXZi6soeh2ipphjIE"
+        },
+        {
+            "name": "ArcGIS",
+            "img":"https://drive.google.com/uc?export=download&id=16cBHYNRRm1j0Ay08kiyIZu2zlwrk4zLe"
+        },
+        {
+            "name": "QGIS",
+            "img":"https://drive.google.com/uc?export=download&id=1lyTXNPlQd1V2mRKoavvqv_-UWUSEjzEd"
         }
     ],
     "projects":[
-        {   "id": "0",
-            "heading": "Projects"
-        },
-        {
+    {
+            "heading": "Projects",
             "name": "Ecommerce Website", 
             "img": "https://drive.google.com/uc?export=download&id=17GVfoQzVsSb2i_NujKTwRugnS1yWwTg9",
             "github": "https://github.com/sphathimandla-makhanya/jsEcommerceProjectSM.git",
