@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="test">
+    <div class="container">
     <h1>Reviews</h1>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
       <div v-for="review in $store.state.reviews" :key="review" class="col">
@@ -15,6 +16,7 @@
       </div>
   </div>
 </div>
+  </div>
 </template>
 
 <script>
@@ -31,6 +33,9 @@ mounted(){
 </script>
 
 <style scoped>
+.test{
+  background-color: #3d5861;
+}
 .card {
   position: relative;
   width: 350px;
