@@ -5,6 +5,7 @@ export default createStore({
   state: {
     about:[],
     resume:[],
+    skills:[],
     reviews:[],
     projects:[]
   },
@@ -16,6 +17,9 @@ export default createStore({
     },
     setResume(state,data){
       state.resume=data
+    },
+    setSkills(state,data){
+      state.skills=data
     },
     
     setProject(state,data){
@@ -35,6 +39,11 @@ export default createStore({
       axios.get('http://localhost:3000/resume')
       .then((cv) => {console.log(cv.data),
       context.commit("setResume", cv.data)})
+    },
+    skillsData(context){
+      axios.get('http://localhost:3000/skills')
+      .then((skill) => {console.log(skill.data),
+      context.commit("setSkills", skill.data)})
     },
    
     projectsData(context){

@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav fs-5">
         <li class="nav-item">
           <router-link to="/home" class="nav-link" href="home">Home</router-link>
            
