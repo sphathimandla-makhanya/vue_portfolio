@@ -22,21 +22,25 @@
     "about": [
         {
             "heading": "About me",
-            "description":"I am a polite and open minded young man who is passionate about life long learning. I live in Cape Town, Langa. I am looking for opportunity that will allow me to utilize my knowledge, skills and experience and allow me an opportunity for growth and career advancement."
+            "description":"I am a polite and open minded young man who is passionate about life long learning. I live in Cape Town, Langa. I am looking for opportunity that will allow me to utilize my knowledge, skills and experience and allow me an opportunity for growth and career advancement.",
+            "img":"https://drive.google.com/uc?export=download&id=1UNBDmRVYIq1v0dtL1oyqlEyTKx8rs8l9"
         }
     ],
     "resume": [
         {
             "heading": "Education",
             "description": "I graduated high school in 2015 at Siphapheme High School. I attended University of Zululand for a bachelor of Science majoring in Geographical and Hydrological Sciences (2019).",
+            "currently":"Currently studing Web Development at Life Choices Academy",
             "img1": "https://drive.google.com/uc?id=1wXtWBjnLDSS4O7cVq9JjzoHcm7mUSfjz"
         },
         {
 
-            "heading": "Experience",
-            "description1": "Department of Agriculture, Land Reform and Rural Development At Chief Directorate: National Geo-Spatial Information Geographical Information Systems Intern (2021-2023 Impunga High School Educators assistance (2020)",
+            "heading1": "Experience",
+            "description1": "Department of Agriculture, Land Reform and Rural Development At Chief Directorate: National Geo-Spatial Information Geographical Information Systems Intern (2021-2023). Impunga High School Educators assistant (2020)",
             "img2": "https://drive.google.com/uc?id=15z66x9Y0sq-ZEnGTDoUQRMBxrn14obQo"
-        },
+        }       
+    ],
+    "skills":[
         {
             "name": "HTML",
             "img":"https://drive.google.com/uc?export=download&id=1WuUUuOVl6O-6Y8D5MMDRWaYjec_woJlU"
@@ -72,41 +76,52 @@
     ],
     "projects":[
     {
-            "heading": "Projects",
             "name": "Ecommerce Website", 
             "img": "https://drive.google.com/uc?export=download&id=17GVfoQzVsSb2i_NujKTwRugnS1yWwTg9",
             "github": "https://github.com/sphathimandla-makhanya/jsEcommerceProjectSM.git",
-            "vercel": "https://js-ecommerce-project-sm.vercel.app/"
+            "githubLogo":"https://drive.google.com/uc?export=download&id=1Gt_6GkUEQjpjF1N6cCDGoeZjO4d3z6zr",
+            "vercel": "https://js-ecommerce-project-sm.vercel.app/",
+            "vercelLogo":"https://drive.google.com/uc?export=download&id=1JOJpOS8HV_OyjyoE1-Wo3Zds-3xsosb-"
         },
         {
             "name": "To do list", 
             "img": "https://drive.google.com/uc?export=download&id=1bM-V_8ZAmbQ3Fsphn6M6GILBc1pGGtTi",
             "github": "https://github.com/sphathimandla-makhanya/toDoList.git",
-            "vercel": "https://to-do-list-gamma-inky.vercel.app/"
+            "githubLogo":"https://drive.google.com/uc?export=download&id=1Gt_6GkUEQjpjF1N6cCDGoeZjO4d3z6zr",
+            "vercel": "https://to-do-list-gamma-inky.vercel.app/",
+            "vercelLogo":"https://drive.google.com/uc?export=download&id=1JOJpOS8HV_OyjyoE1-Wo3Zds-3xsosb-"
         },
         {
             "name": "First Portfolio", 
             "img": "https://drive.google.com/uc?export=download&id=1pPoH2IpZS5XsPVqIw8rXd36HWB2krqso",
             "github": "https://github.com/sphathimandla-makhanya/portfolioSMakhanya.git",
-            "vercel": "https://portfolio-s-makhanya-7lvb.vercel.app/"
+            "githubLogo":"https://drive.google.com/uc?export=download&id=1Gt_6GkUEQjpjF1N6cCDGoeZjO4d3z6zr",
+            "vercel": "https://portfolio-s-makhanya-7lvb.vercel.app/",
+            "vercelLogo":"https://drive.google.com/uc?export=download&id=1JOJpOS8HV_OyjyoE1-Wo3Zds-3xsosb-"
         },
         {
             "name": "Calculator", 
             "img": "https://drive.google.com/uc?export=download&id=1pyfUT9NL61V7iDwMDg9Yhsm-dMFY6--q",
             "github": "https://github.com/sphathimandla-makhanya/Calculator.git",
-            "vercel": "https://calculator-nx2h.vercel.app/"
+            "githubLogo":"https://drive.google.com/uc?export=download&id=1Gt_6GkUEQjpjF1N6cCDGoeZjO4d3z6zr",
+            "vercel": "https://calculator-nx2h.vercel.app/",
+            "vercelLogo":"https://drive.google.com/uc?export=download&id=1JOJpOS8HV_OyjyoE1-Wo3Zds-3xsosb-"
         },
         {
             "name": "Hex to RGB", 
             "img": "https://drive.google.com/uc?export=download&id=1rGwlCf4BgAJIkAt-YZJlKEi0a4q1xO05",
             "github": "https://github.com/sphathimandla-makhanya/hexToRGB.git",
-            "vercel": "https://hex-to-rgb-mu.vercel.app/"
+            "githubLogo":"https://drive.google.com/uc?export=download&id=1Gt_6GkUEQjpjF1N6cCDGoeZjO4d3z6zr",
+            "vercel": "https://hex-to-rgb-mu.vercel.app/",
+            "vercelLogo":"https://drive.google.com/uc?export=download&id=1JOJpOS8HV_OyjyoE1-Wo3Zds-3xsosb-"
         },
         {
             "name": "Fastfood ecommerce", 
             "img": "https://drive.google.com/uc?export=download&id=1bv01_yHQW4_SsMbNohqkiC_Y5DlPKkUq",
             "github": "https://github.com/sphathimandla-makhanya/ecommerce.git",
-            "vercel": "https://ephemeral-torte-893c45.netlify.app/"
+            "githubLogo":"https://drive.google.com/uc?export=download&id=1Gt_6GkUEQjpjF1N6cCDGoeZjO4d3z6zr",
+            "vercel": "https://ephemeral-torte-893c45.netlify.app/",
+            "vercelLogo":"https://drive.google.com/uc?export=download&id=1JOJpOS8HV_OyjyoE1-Wo3Zds-3xsosb-"
         }
 
     ],

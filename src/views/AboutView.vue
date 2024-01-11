@@ -1,7 +1,8 @@
 <template>
   <div class="container">
-    <h1>About</h1>
+    <h1>{{ $store.state.about.heading }}</h1>
     <p>{{ $store.state.about.description}}</p>
+    <img id="image" :src="$store.state.about.img" alt="">
   </div>
 </template>
 <script>
@@ -16,3 +17,10 @@ mounted(){
 }
 }
 </script>
+
+<style>
+#image{
+  height: 250px;
+  width: 250px;
+}
+</style>

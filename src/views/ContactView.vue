@@ -16,14 +16,14 @@
         </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Message: </label>
-          <textarea id="message" class="form-control" cols="30" rows="2"></textarea>
+          <textarea id="message" class="form-control" cols="30" rows="1"></textarea>
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-success">Submit</button>
         </div>
       </form>       
   </div>
-  <div class="container d-flex">
+  <div class="container d-sm-block d-md-flex">
     <div class="col">
       <div class="row">
       <table class="table table-striped mt-2">
@@ -38,15 +38,17 @@
           </tr>
           <tr>
             <th scope="row"><img id="contactImg" src=""></th>
-            <td>314 Imam Haron, Lansdowne</td>
+            <td>33 Winnie Mandela street, Langa, 7455</td>
           </tr>
         </tbody>
       </table>
     </div>
     </div>
     <div class="col">
-      <div class="row m-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.6160810874817!2d18.536604475340717!3d-33.951001223320624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5b45f2048113%3A0x9d5bc1789bb86203!2s33%20Winnie%20Mandela%20St%2C%20Langa%2C%20Cape%20Town%2C%207456!5e0!3m2!1sen!2sza!4v1704919441818!5m2!1sen!2sza" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="row">
+        <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.6160810874817!2d18.536604475340717!3d-33.951001223320624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5b45f2048113%3A0x9d5bc1789bb86203!2s33%20Winnie%20Mandela%20St%2C%20Langa%2C%20Cape%20Town%2C%207456!5e0!3m2!1sen!2sza!4v1704919441818!5m2!1sen!2sza" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </div>
+      </div>
   </div>
 
 </template>
@@ -58,5 +60,7 @@ export default {
 </script>
 
 <style>
-
+h1{
+  font-family: 'Rye', serif;
+}
 </style>

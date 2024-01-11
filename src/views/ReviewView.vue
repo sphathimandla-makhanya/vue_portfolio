@@ -38,8 +38,8 @@ mounted(){
 }
 .card {
   position: relative;
-  width: 350px;
-  height: 250px;
+  width: 245px;
+  height: 200px;
   background-color: #f2f2f2;
   border-radius: 10px;
   display: flex;
