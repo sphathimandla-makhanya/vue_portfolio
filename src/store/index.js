@@ -31,9 +31,9 @@ export default createStore({
   },
   actions: {
     fetchData(context){
-      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+      axios.get('http://localhost:3000/about')
       .then((a) => {console.log(a.data[0]),
-      context.commit("setAbout", a.data[0].about)})
+      context.commit("setAbout", a.data[0])})
     },
     resumeData(context){
       axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
@@ -41,15 +41,15 @@ export default createStore({
       context.commit("setResume", cv.data.resume)})
     },
     skillsData(context){
-      axios.get('http://localhost:3000/skills')
-      .then((skill) => {console.log(skill.data),
-      context.commit("setSkills", skill.data)})
+      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+      .then((skill) => {console.log(skill.data.skills),
+      context.commit("setSkills", skill.data.skills)})
     },
    
     projectsData(context){
-      axios.get('http://localhost:3000/projects')
-      .then((proj) => {console.log(proj.data),
-      context.commit("setProject", proj.data)})
+      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+      .then((proj) => {console.log(proj.data.projects),
+      context.commit("setProject", proj.data.projects)})
     },
     reviewsData(context){
       axios.get('http://localhost:3000/reviews')

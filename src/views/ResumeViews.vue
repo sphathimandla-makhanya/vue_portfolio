@@ -24,7 +24,7 @@
   
     <div class="container d-flex">
       <div class="row row-cols-1 row-cols-md-4 g-3">
-      <div v-for="skill in $store.state.skills" :key="skill" class="col">
+      <div v-for="skill in $store.state.skills" :key="skill" >
           <div class="col-12">
         <div id="card" class="card h-100">
           <img :src="skill.img" class="card-img-top" alt="">
