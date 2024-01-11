@@ -31,14 +31,14 @@ export default createStore({
   },
   actions: {
     fetchData(context){
-      axios.get('http://localhost:3000/about')
+      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
       .then((a) => {console.log(a.data[0]),
-      context.commit("setAbout", a.data[0])})
+      context.commit("setAbout", a.data[0].about)})
     },
     resumeData(context){
-      axios.get('http://localhost:3000/resume')
-      .then((cv) => {console.log(cv.data),
-      context.commit("setResume", cv.data)})
+      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+      .then((cv) => {console.log(cv.data.resume),
+      context.commit("setResume", cv.data.resume)})
     },
     skillsData(context){
       axios.get('http://localhost:3000/skills')
