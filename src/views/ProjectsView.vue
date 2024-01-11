@@ -15,12 +15,10 @@
         </div>
     </div>
     </div><hr><br>
-  
-  
   </div>
-  <div v-else>
-    <SpinnerComp/>
-  </div>
+    <div v-else class="text-align-center">
+      <SpinnerComp/>
+    </div>
 </template>
 
 <script>
