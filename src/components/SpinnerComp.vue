@@ -15,8 +15,8 @@ export default {
   display: grid;
   border-radius: 50%;
   -webkit-mask: radial-gradient(farthest-side,#0000 40%,#000 41%);
-  background: linear-gradient(0deg ,#766DF480 50%,#766DF4FF 0) center/4px 100%,
-    linear-gradient(90deg,#766DF440 50%,#766DF4BF 0) center/100% 4px;
+  background: linear-gradient(0deg ,red 50%,white 0) center/4px 100%,
+    linear-gradient(90deg,red 50%,red 0) center/100% 4px;
   background-repeat: no-repeat;
   animation: s3 1s infinite steps(12);
 }
