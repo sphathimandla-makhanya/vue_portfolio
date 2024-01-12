@@ -1,12 +1,19 @@
 <template>
-    <div class="container-fluid">
-      <div class='typing'>
-        <span>Welcome</span>
-        <span>to</span>
-        <span></span>
-        <span>of</span>
-        <span>S'phathimandla</span>
-       </div>
+    <div class="container-fluid d-flex">
+      <div class="row">
+        <div class="col">
+          <div class='typing'>
+            <span>S'phathimandla</span>
+            <span>Makhanya</span>
+          </div>
+        </div>
+        <div>
+          <p >Aspiring Web Developer</p>
+        </div>
+        <div class="col">
+          <img  src="https://i.ibb.co/9gH3D1p/Sphathimandla.jpg" alt="">
+        </div>
+      </div>
     </div>
 </template>
 
@@ -18,6 +25,20 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (min-width: 300px){
+  img{
+  height: 250px;
+  width: 270px;
+  border-radius: 30%;
+}
+}
+@media screen and (min-width: 500px){
+  img{
+  height: 400px;
+  width: 500px;
+  border-radius: 30%;
+}
+}
 @keyframes jump {  
   25% {
     transform: translateY(0);
@@ -40,10 +61,32 @@ export default {
   align-items: flex-end;
 }
 
+p{
+  font-size: 28px;
+  color: aquamarine;
+}
+
 .typing span{
   color: aliceblue;
-  font-size: xx-large;
+  font-size: 50px;
   font-family: "Rye", serif;
+  
+}
+
+@media screen and (min-width: 300px) {
+  .typing span{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .typing span{
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .typing span{
+    font-size: 50px;
+  }
 }
 
 .typing span {

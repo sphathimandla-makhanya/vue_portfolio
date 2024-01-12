@@ -1,9 +1,10 @@
 <template>
-  <div v-if="$store.state.projects.length>0">
+  <div class="proj">
+    <h1>Projects</h1>
+    <div v-if="$store.state.projects.length>0">
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div v-for="project in $store.state.projects" :key="project" class="col">
-          <!-- <h1 class="">{{ project.heading }}</h1> -->
           <div class="card ">
             <img :src="project.img" class="card-img-top" alt="">
             <div class="card-body">
@@ -19,6 +20,7 @@
     <div v-else class="text-align-center">
       <SpinnerComp/>
     </div>
+  </div>
 </template>
 
 <script>
@@ -39,9 +41,11 @@ export default {
 }
 </script>
 
-<!-- <style scoped>
-  img{
-    height: 250px;
-    width: 350px;
-  }
-</style> -->
+<style scoped>
+.proj{
+  background-color: cadetblue;
+}
+h1{
+  color: aliceblue;
+}
+</style>

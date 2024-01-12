@@ -1,8 +1,27 @@
 <template>
-  <div class="container">
-    <h1>{{ $store.state.about.heading }}</h1>
-    <p>{{ $store.state.about.description}}</p>
-    <img id="image" :src="$store.state.about.img" alt="">
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <h1>{{ $store.state.about.heading }}</h1>
+        <div class="col m-5">
+          <ul class="list-group list-group-flush  ">
+            <li class="list-group-item">S'phathimandla Makhanya</li>
+            <li class="list-group-item">Gender: Male</li>
+            <li class="list-group-item">Nationality: African</li>
+            <li class="list-group-item">Driver's license: C1/10</li>
+            <li class="list-group-item">Languages: English, Isizulu and IsiXhosa</li>
+            <li class="list-group-item">Strong communication and interpersonal skills</li>
+            <li class="list-group-item">MS Office (Access, Excel, Power point, Word, Outlook, Visio)</li>
+            <li class="list-group-item">Skills: ArcMap, ArcGIS Pro,Google Earth Pro and GeoMedia software</li>
+          </ul><br>
+        </div>
+        <div class="col m-5">
+          <img id="image" :src="$store.state.about.img" class="m-3">
+          <p>{{ $store.state.about.description}}</p>
+          <p>{{ $store.state.about.hobbies }}</p><br>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -22,5 +41,12 @@ mounted(){
 #image{
   height: 250px;
   width: 250px;
+}
+ul li{
+  height: 50px;
+}
+
+.about{
+  background-color: cadetblue;
 }
 </style>

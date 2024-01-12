@@ -31,31 +31,56 @@ export default createStore({
   },
   actions: {
     fetchData(context){
-      axios.get('http://localhost:3000/about')
-      .then((a) => {console.log(a.data[0]),
-      context.commit("setAbout", a.data[0])})
+      try{
+        axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+        .then((a) => {console.log(a.data.about[0]),
+        context.commit("setAbout", a.data.about[0])})
+      }
+      catch(error){
+        console.error("error", error);
+      }
     },
     resumeData(context){
-      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
-      .then((cv) => {console.log(cv.data.resume),
-      context.commit("setResume", cv.data.resume)})
+      try{
+        axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+        .then((cv) => {console.log(cv.data.resume),
+        context.commit("setResume", cv.data.resume)})
+      }
+      catch(error){
+        console.error("error", error);
+      }
     },
     skillsData(context){
-      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
-      .then((skill) => {console.log(skill.data.skills),
-      context.commit("setSkills", skill.data.skills)})
+      try{
+        axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+        .then((skill) => {console.log(skill.data.skills),
+        context.commit("setSkills", skill.data.skills)})
+      }
+      catch(error){
+        console.error("error", error);
+      }
     },
    
     projectsData(context){
-      axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
-      .then((proj) => {console.log(proj.data.projects),
-      context.commit("setProject", proj.data.projects)})
+      try{
+        axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+        .then((proj) => {console.log(proj.data.projects),
+        context.commit("setProject", proj.data.projects)})
+      }
+      catch(error){
+        console.error("error", error);
+      }
     },
     reviewsData(context){
-      axios.get('http://localhost:3000/reviews')
-      .then((testimonial) => {console.log(testimonial.data),
-      context.commit("setReviews", testimonial.data)})
-    }
+      try{
+        axios.get('https://sphathimandla-makhanya.github.io/vueJson/')
+        .then((testimonial) => {console.log(testimonial.data.reviews),
+        context.commit("setReviews", testimonial.data.reviews)})
+      }
+      catch(error){
+        console.error("error", error);
+      }
+    },
   },
   modules: {
   }
