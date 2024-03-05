@@ -67,7 +67,7 @@ mounted(){
 }
 </script>
 
-<style>
+<style scoped>
 .resume{
   background-color: cadetblue;
 }
@@ -77,5 +77,11 @@ h3{
 #card{
   background-color: rgb(0, 255, 242);
   box-shadow: 0 4px 8px 0 rgba( 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 300px) {
+  #card{
+  width: 270px;
+}
 }
 </style>

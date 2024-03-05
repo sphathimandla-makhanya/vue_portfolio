@@ -1,5 +1,7 @@
 <template>
-  <div class="custom-loader"></div>
+  <div class="container">
+    <div class="custom-loader"></div>
+  </div>
 </template>
 
 <script>
@@ -19,6 +21,7 @@ export default {
     linear-gradient(90deg,red 50%,red 0) center/100% 4px;
   background-repeat: no-repeat;
   animation: s3 1s infinite steps(12);
+ 
 }
 
 .custom-loader::before,

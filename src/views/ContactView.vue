@@ -2,22 +2,22 @@
   <div class="contacts">
     <h1>Contacts</h1>
     <div class="container">
-      <form action="https://formspree.io/f/mnqkwpdj" method="POST" target="_blank" class="row g-2">
+      <form action="https://formspree.io/f/mnqkwpdj" method="POST" target="_blank" class="row g-2" @submit.prevent="reloadForm()">
       <div class="col-md-6">
           <label for="firstName" class="form-label">First Name:</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" required>
+          <input type="text" class="form-control" id="firstName" name="firstName" required v-model="firstName">
       </div>
       <div class="col-md-6">
           <label for="lastName" class="form-label">Last Name:</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" required>
+          <input type="text" class="form-control" id="lastName" name="lastName" required v-model="lastName">
       </div>
       <div class="col-12">
           <label for="emailAddress" class="form-label">Email Address:</label>
-          <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="example@gmail.com" required>
+          <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="example@gmail.com" required v-model="emailAddress">
       </div>
       <div class="col-12">
           <label for="message" class="form-label">Message:</label>
-          <textarea id="message" class="form-control" name="message" cols="30" rows="3" required></textarea>
+          <textarea id="message" class="form-control" name="message" cols="30" rows="3" required v-model="message"></textarea>
       </div>
       <div class="col-12">
           <button type="submit" class="btn btn-success">Submit</button>
@@ -57,7 +57,22 @@
 
 <script>
 export default {
-
+  data(){
+   return{
+    firstName:"",
+    lastName:"",
+    emailAddress:"",
+    message:""
+   }
+  },methods:{
+    reloadForm(){
+    alert("Form submitted"),
+    this.firstName="",
+    this.lastName="",
+    this.emailAddress="",
+    this.message=""
+    }
+  }
 }
 </script>
 

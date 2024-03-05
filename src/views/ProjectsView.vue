@@ -48,4 +48,11 @@ export default {
 h1{
   color: aliceblue;
 }
+
+@media screen and (max-width: 300px) {
+  .card{
+  width: 270px;
+}
+}
+
 </style>

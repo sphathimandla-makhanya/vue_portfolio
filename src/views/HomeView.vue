@@ -77,6 +77,10 @@ p{
   .typing span{
     font-size: 15px;
   }
+  p{
+  font-size: 18px;
+  color: aquamarine;
+}
 }
 @media screen and (min-width: 500px) {
   .typing span{
