@@ -9,8 +9,8 @@
             <img :src="project.img" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">{{ project.name }}</h5>
-              <a :href="project.github" class="btn btn-primary m-1" target="blank"><img :src="project.githubLogo" style="height: 20px; width: 50px;" alt=""></a>
-              <a :href="project.vercel" class="btn btn-primary m-1" target="blank"><img :src="project.vercelLogo" style="height: 20px; width: 50px;" alt=""></a>
+              <a :href="project.github" target="blank"><img id="icons-img" :src="project.githubLogo" alt=""></a>
+              <a :href="project.vercel" target="blank"><img id="icons-img" :src="project.vercelLogo" alt=""></a>
             </div>
           </div>
         </div>
@@ -48,6 +48,24 @@ export default {
 h1{
   color: aliceblue;
 }
+/* a:hover{
+ background-color: blue;
+} */
+
+#icons-img{
+  height: 20px;
+  width: 30px;
+  border-radius: 30%;
+  margin: 2px;
+}
+#icons-img:hover{
+  height: 30px;
+  width: 35px;
+  background-color: blue;
+  border-radius: 30%;
+}
+
+
 
 @media screen and (max-width: 300px) {
   .card{
