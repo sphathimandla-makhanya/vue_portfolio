@@ -39,7 +39,7 @@
             </tr>
             <tr>
               <th scope="row"><img id="contactImg" src=""></th>
-              <td class="text-white">33 Winnie Mandela street, Langa, 7455</td>
+              <td class="text-white">Cape Town, Langa</td>
             </tr>
           </tbody>
         </table>
@@ -47,7 +47,7 @@
       </div>
       <div class="col">
         <div class="row">
-          <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.6160810874817!2d18.536604475340717!3d-33.951001223320624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5b45f2048113%3A0x9d5bc1789bb86203!2s33%20Winnie%20Mandela%20St%2C%20Langa%2C%20Cape%20Town%2C%207456!5e0!3m2!1sen!2sza!4v1704919441818!5m2!1sen!2sza" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13239.069157922102!2d18.529903849999997!3d-33.94711295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5b5c78086627%3A0x4d5b92f00481418f!2sLanga%2C%20Cape%20Town%2C%207456!5e0!3m2!1sen!2sza!4v1711375770585!5m2!1sen!2sza" width="290" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       </div>
         </div>
     </div><br>

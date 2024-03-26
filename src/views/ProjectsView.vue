@@ -5,12 +5,12 @@
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div v-for="project in $store.state.projects" :key="project" class="col">
-          <div class="card ">
+          <div class="card bg-dark">
             <img :src="project.img" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">{{ project.name }}</h5>
-              <a :href="project.github" class="btn btn-primary m-1" target="blank"><img :src="project.githubLogo" style="height: 20px; width: 50px;" alt=""></a>
-              <a :href="project.vercel" class="btn btn-primary m-1" target="blank"><img :src="project.vercelLogo" style="height: 20px; width: 50px;" alt=""></a>
+              <a :href="project.github" target="blank"><img id="icons-img" :src="project.githubLogo" alt=""></a>
+              <a :href="project.vercel" target="blank"><img id="icons-img" :src="project.vercelLogo" alt=""></a>
             </div>
           </div>
         </div>
@@ -48,6 +48,29 @@ export default {
 h1{
   color: aliceblue;
 }
+/* a:hover{
+ background-color: blue;
+} */
+
+#icons-img{
+  height: 20px;
+  width: 30px;
+  border-radius: 30%;
+  margin: 2px;
+}
+#icons-img:hover{
+  height: 30px;
+  width: 35px;
+  background-color: blue;
+  border-radius: 30%;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(18, 3, 103, 0.19);
+}
+
+.card:hover{
+    width: 102%;
+    /* height: 102%; */
+}
+
 
 @media screen and (max-width: 300px) {
   .card{
