@@ -37,7 +37,7 @@ mounted(){
 }
 </script>
 
-<style>
+<style> 
 #image{
   height: 250px;
   width: 250px;
@@ -50,4 +50,5 @@ ul li{
 .about{
   background-color: cadetblue;
 }
+
 </style>

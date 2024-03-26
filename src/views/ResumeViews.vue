@@ -31,7 +31,7 @@
             <img :src="skill.img" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">{{ skill.name }}</h5>
-              <p>{{ skill.description }}</p>
+              <!-- <p>{{ skill.description }}</p> -->
             </div>
           </div>
         </div>
