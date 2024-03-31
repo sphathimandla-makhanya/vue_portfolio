@@ -46,6 +46,7 @@ export default {
 }
 .nav-link{
   color: aliceblue;
+  font-family: 'Playfair', serif;
 }
 
 </style>

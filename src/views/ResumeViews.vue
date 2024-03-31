@@ -2,24 +2,22 @@
   <div v-if="$store.state.resume.length>0">
     <div class="resume">
       <h1>Resume</h1>
-      <div class="container d-flex flex-row align-items-center">
-        <!-- <div class="row-col"> -->
+      <div id="font" class="container d-md-flex d-sm-block align-items-center">
             <div v-for="resum in $store.state.resume" :key="resum" >
-              <!-- <div class="row"> -->
+              <div class="row">
                 <div class="col-sm-12">
                 <h3 id="edu">{{ resum.heading }}</h3>
               <p>{{ resum.description }}</p> 
               <p>{{ resum.currently }}</p>
               <img :src="resum.img1" alt="">
-              </div><br>
+                </div>
               <div class="col-sm-12">
                 <h3>{{ resum.heading1 }}</h3>
                 <img :src="resum.img2" alt="">
                 <p>{{ resum.description1 }}</p> 
               </div>
-              <!-- </div> -->
-            </div>
-      <!-- </div> -->
+              </div>
+           </div>
     </div>
       <hr><br>
     
@@ -69,10 +67,15 @@ mounted(){
 
 <style scoped>
 .resume{
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  background-color: #3d5861;
+  font-family: 'Playfair', serif;
+  color: #101011;
+  font-size:105%;
 }
 h3{
-  font-family: 'Rye', serif;
+  /* font-family: 'Rye', serif; */
+  font-family: 'Playfair', serif;
 }
 #card{
   margin-left:10%;

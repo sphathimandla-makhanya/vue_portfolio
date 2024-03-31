@@ -9,6 +9,7 @@
             <img :src="project.img" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">{{ project.name }}</h5>
+              <h5 class="card-title">{{ project.description }}</h5>
               <a :href="project.github" target="blank"><img id="icons-img" :src="project.githubLogo" alt=""></a>
               <a :href="project.vercel" target="blank"><img id="icons-img" :src="project.vercelLogo" alt=""></a>
             </div>
@@ -45,12 +46,17 @@ export default {
 .proj{
   background-color: cadetblue;
 }
-h1{
+/* h1{
   color: aliceblue;
-}
+} */
 /* a:hover{
  background-color: blue;
 } */
+
+.card-body{
+  color:aliceblue;
+  font-family: 'Playfair', serif;
+}
 
 #icons-img{
   height: 20px;

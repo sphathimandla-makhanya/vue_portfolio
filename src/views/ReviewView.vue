@@ -45,9 +45,9 @@ mounted(){
 .test{
   background-color: #3d5861;
 }
-#reviewHead{
+/* #reviewHead{
   color: #f2f2f2;
-}
+} */
 .card {
   position: relative;
   width: 370px;

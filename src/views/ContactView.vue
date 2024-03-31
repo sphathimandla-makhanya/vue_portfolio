@@ -78,10 +78,15 @@ export default {
 
 <style>
 h1{
-  font-family: 'Rye', serif;
+  /* font-family: 'Rye', serif; */
+  font-family: 'Playfair', serif;
+  font-weight: bolder;
+  color: #101011;
 }
 .contacts{
   background-color: cadetblue;
+  font-family: 'Playfair', serif;
+  color:#101011;
 }
 tr td{
   color: aliceblue;

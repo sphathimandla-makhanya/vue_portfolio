@@ -2,13 +2,13 @@
     <div class="container-fluid d-flex">
       <div class="row">
         <div class="col">
-          <div class='typing'>
+          <div class='typing zoom-in'>
             <span>S'phathimandla</span>
             <span>Makhanya</span>
           </div>
         </div>
         <div>
-          <p >Aspiring Web Developer</p>
+          <p>Aspiring Fullstack Web Developer</p>
         </div>
         <div class="col">
           <img  src="https://i.ibb.co/9gH3D1p/Sphathimandla.jpg" alt="">
@@ -25,6 +25,19 @@ export default {
 </script>
 
 <style scoped>
+a img:hover{
+  width: 30px;
+  margin: 3px;
+  border-radius: 3px;
+  background-color: rgb(51, 144, 28);
+  border-color: blue;
+}
+a img{
+  height: 25px;
+  width: 25px;
+  margin: 3px;
+  border-radius: 3px;
+}
 @media screen and (min-width: 300px){
   img{
   height: 250px;
@@ -63,13 +76,14 @@ export default {
 
 p{
   font-size: 28px;
-  color: aquamarine;
+  color:whitesmoke;
 }
 
 .typing span{
   color: aliceblue;
   font-size: 50px;
-  font-family: "Rye", serif;
+  /* font-family: "Rye", serif; */
+  font-family: 'Playfair', serif;
   
 }
 
