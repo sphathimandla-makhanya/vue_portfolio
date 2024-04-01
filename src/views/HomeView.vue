@@ -13,6 +13,9 @@
         <div class="col">
           <img  src="https://i.ibb.co/9gH3D1p/Sphathimandla.jpg" alt="">
         </div>
+        <div>
+          <button @click="downloadResume">Download Resume</button>
+          </div>
       </div>
     </div>
 </template>
@@ -21,7 +24,13 @@
 
 
 export default {
+  methods: {
+    downloadResume() {
+      const resumePath = '../assets/SM_CV.pdf';
+      window.open(resumePath, '_blank');
+    }
   }
+}
 </script>
 
 <style scoped>
