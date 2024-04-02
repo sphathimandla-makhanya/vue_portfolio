@@ -46,12 +46,10 @@ export default {
 .proj{
   background-color: cadetblue;
 }
-/* h1{
-  color: aliceblue;
-} */
-/* a:hover{
- background-color: blue;
-} */
+h1{
+  font-weight: 600;
+  color:black;
+}
 
 .card-body{
   color:aliceblue;
@@ -65,18 +63,10 @@ export default {
   margin: 2px;
 }
 #icons-img:hover{
-  height: 30px;
-  width: 35px;
   background-color: blue;
   border-radius: 30%;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(18, 3, 103, 0.19);
 }
-
-.card:hover{
-    width: 102%;
-    /* height: 102%; */
-}
-
 
 @media screen and (max-width: 300px) {
   .card{

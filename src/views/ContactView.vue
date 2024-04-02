@@ -76,11 +76,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 h1{
   /* font-family: 'Rye', serif; */
   font-family: 'Playfair', serif;
-  font-weight: bolder;
+  font-weight: 600;
   color: #101011;
 }
 .contacts{

@@ -91,9 +91,9 @@ p{
 .typing span{
   color: aliceblue;
   font-size: 50px;
+  font-weight: 600;
   /* font-family: "Rye", serif; */
   font-family: 'Playfair', serif;
-  
 }
 
 @media screen and (min-width: 300px) {

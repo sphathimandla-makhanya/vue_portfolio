@@ -67,11 +67,13 @@ mounted(){
 
 <style scoped>
 .resume{
-  /* background-color: cadetblue; */
   background-color: #3d5861;
   font-family: 'Playfair', serif;
   color: #101011;
   font-size:105%;
+}
+h1{
+  font-weight: 600;
 }
 h3{
   /* font-family: 'Rye', serif; */
@@ -81,12 +83,13 @@ h3{
   margin-left:10%;
   margin-right:10%;
   /* opacity:0.2; */
-  background-color: rgb(0, 255, 242);
+  background-color: cadetblue;
+  /* background-color: rgb(0, 255, 242); */
   transition: 0.5s ease in out;
 }
 #card:hover{
-  /* opacity:1; */
-  box-shadow: 10px 10px 10px 0 rgba( 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+  opacity:1;
+  box-shadow: 10px 4px 4px 10px rgba( 0, 0, 0.2);
   transition: opacity 0.8s;
   transform: scale(1.05s);
 }

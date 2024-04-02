@@ -38,6 +38,12 @@ mounted(){
 </script>
 
 <style scoped> 
+h1{
+  /* font-family: 'Rye', serif; */
+  font-family: 'Playfair', serif;
+  font-weight: 600;
+  color: #101011;
+}
 #image{
   height: 250px;
   width: 250px;

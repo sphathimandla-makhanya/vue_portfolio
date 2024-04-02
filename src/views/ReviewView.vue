@@ -45,9 +45,10 @@ mounted(){
 .test{
   background-color: #3d5861;
 }
-/* #reviewHead{
-  color: #f2f2f2;
-} */
+h1{
+  font-weight: 600;
+  color:black;
+}
 .card {
   position: relative;
   width: 370px;
