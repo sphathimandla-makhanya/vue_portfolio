@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid d-flex">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col">
           <div class='typing zoom-in'>
             <span>S'phathimandla</span>
@@ -16,7 +16,11 @@
         <div>
           <button @click="downloadResume">Download Resume</button>
           </div>
-      </div>
+      </div> -->
+     <div class = "container">
+  <h1>S'phathimandla Makhanya</h1>
+  <h1>Fullstack web developer</h1>
+</div>
     </div>
 </template>
 
@@ -34,7 +38,91 @@ export default {
 </script>
 
 <style scoped>
-a img:hover{
+
+/* NOTE: I only tested this on Google Chrome.*/
+
+body{
+  background: #FBD4C5;
+}
+
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container h1:nth-child(1) {
+  color: #355c7d;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  /* width: 170px; */
+  animation: type 2s steps(40,end) forwards;
+}
+
+.container h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto auto auto;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-weight: 800;
+  font-size: 100px;  
+  width: 530px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 1px solid orange;
+  }
+  100%{
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+/* a img:hover{
   width: 30px;
   margin: 3px;
   border-radius: 3px;
@@ -60,8 +148,8 @@ a img{
   width: 500px;
   border-radius: 30%;
 }
-}
-@keyframes jump {  
+} */
+/* @keyframes jump {  
   25% {
     transform: translateY(0);
   }
@@ -74,9 +162,9 @@ a img{
     transform: translateY(50);
   }
  
-}
+} */
 
-.typing {
+/* .typing {
   display: inline-flex;
   height: 1rem;
   width: min-content;
@@ -86,17 +174,17 @@ a img{
 p{
   font-size: 28px;
   color:whitesmoke;
-}
+} */
 
-.typing span{
+/* .typing span{
   color: aliceblue;
   font-size: 50px;
   font-weight: 600;
-  /* font-family: "Rye", serif; */
+  font-family: "Rye", serif;
   font-family: 'Playfair', serif;
-}
+} */
 
-@media screen and (min-width: 300px) {
+/* @media screen and (min-width: 300px) {
   .typing span{
     font-size: 15px;
   }
@@ -132,7 +220,7 @@ p{
 
 .typing span:nth-child(4) {
   animation-delay: 750ms;
-}
+} */
 .container-fluid {
 
   height: 100vh;

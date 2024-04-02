@@ -7,12 +7,12 @@
           <ul class="list-group list-group-item-dark list-group-flush">
             <li class="list-group-item list-group-item-dark">S'phathimandla Makhanya</li>
             <li class="list-group-item ">Gender: Male</li>
-            <li class="list-group-item ">Gender: Male</li>
-            <li class="list-group-item list-group-item-dark">Nationality: African</li>
-            <li class="list-group-item">Driver's license: C1/10</li>
-            <li class="list-group-item list-group-item-dark">Languages: English, Isizulu and IsiXhosa</li>
-            <li class="list-group-item">Strong communication and interpersonal skills</li>
-            <li class="list-group-item list-group-item-dark">MS Office (Excel, Power point, Word, Outlook, Visio)</li>
+            <li class="list-group-item list-group-item-dark">Gender: Male</li>
+            <li class="list-group-item ">Nationality: African</li>
+            <li class="list-group-item list-group-item-dark">Driver's license: C1/10</li>
+            <li class="list-group-item ">Languages: English, Isizulu and IsiXhosa</li>
+            <li class="list-group-item list-group-item-dark">Strong communication and interpersonal skills</li>
+            <li class="list-group-item ">MS Office (Excel, Power point, Word, Outlook, Visio)</li>
           </ul><br>
         </div>
         <div class="col m-5 ">
@@ -43,6 +43,7 @@ h1{
   font-family: 'Playfair', serif;
   font-weight: 600;
   color: #101011;
+  /* color: white; */
 }
 #image{
   height: 250px;
@@ -57,6 +58,7 @@ h1{
 #container-about{
   font-family: 'Playfair', serif;
   color:#101011;
+  /* color:white; */
   font-size:105%;
 }
 

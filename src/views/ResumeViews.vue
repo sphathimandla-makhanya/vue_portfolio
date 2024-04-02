@@ -89,7 +89,7 @@ h3{
 }
 #card:hover{
   opacity:1;
-  box-shadow: 10px 4px 4px 10px rgba( 0, 0, 0.2);
+  box-shadow: 0 4px 15px 0 rgba( 0, 0, 0.2);
   transition: opacity 0.8s;
   transform: scale(1.05s);
 }
