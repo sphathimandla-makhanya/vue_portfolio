@@ -80,14 +80,14 @@ h3{
 #card{
   margin-left:10%;
   margin-right:10%;
-  opacity:0.2;
+  /* opacity:0.2; */
   background-color: rgb(0, 255, 242);
+  transition: 0.5s ease in out;
 }
 #card:hover{
-  opacity:1;
-  margin-left:5%;
-  margin-right:5%;
-  box-shadow: 0 4px 8px 0 rgba( 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+  /* opacity:1; */
+  box-shadow: 10px 10px 10px 0 rgba( 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
   transition: opacity 0.8s;
+  transform: scale(1.05s);
 }
 </style>
