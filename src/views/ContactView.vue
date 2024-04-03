@@ -39,7 +39,7 @@
             </tr>
             <tr>
               <th scope="row"><img id="contactImg" src=""></th>
-              <td class="text-white">Cape Town, Langa</td>
+              <td class="text-white">Langa, Cape Town</td>
             </tr>
           </tbody>
         </table>
@@ -81,14 +81,17 @@ h1{
   /* font-family: 'Rye', serif; */
   font-family: 'Playfair', serif;
   font-weight: 600;
-  color: #101011;
+  color: whitesmoke;
 }
 .contacts{
-  background-color: cadetblue;
   font-family: 'Playfair', serif;
-  color:#101011;
+  color: whitesmoke;
 }
 tr td{
   color: aliceblue;
+}
+
+.col iframe{
+  width: 280px;
 }
 </style>

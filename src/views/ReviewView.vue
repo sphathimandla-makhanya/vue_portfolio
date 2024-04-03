@@ -42,12 +42,9 @@ mounted(){
 </script>
 
 <style scoped>
-.test{
-  background-color: #3d5861;
-}
 h1{
   font-weight: 600;
-  color:black;
+  color: whitesmoke;
 }
 .card {
   position: relative;

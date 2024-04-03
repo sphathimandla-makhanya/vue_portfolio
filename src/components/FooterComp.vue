@@ -30,13 +30,13 @@ data(){
   font-size: medium;
   color: aliceblue;
 }
-a img:hover{
+/* a img:hover{
   width: 30px;
   margin: 3px;
   border-radius: 3px;
   background-color: rgb(51, 144, 28);
   border-color: blue;
-}
+} */
 a img{
   height: 25px;
   width: 25px;

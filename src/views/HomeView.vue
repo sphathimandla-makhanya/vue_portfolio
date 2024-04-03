@@ -1,25 +1,12 @@
 <template>
-    <div class="container-fluid d-flex">
-      <!-- <div class="row">
-        <div class="col">
-          <div class='typing zoom-in'>
-            <span>S'phathimandla</span>
-            <span>Makhanya</span>
-          </div>
-        </div>
-        <div>
-          <p>Aspiring Fullstack Web Developer</p>
-        </div>
-        <div class="col">
-          <img  src="https://i.ibb.co/9gH3D1p/Sphathimandla.jpg" alt="">
-        </div>
-        <div>
-          <button @click="downloadResume">Download Resume</button>
-          </div>
-      </div> -->
+    <div class="container-fluid">
      <div class = "container">
   <h1>S'phathimandla Makhanya</h1>
   <h1>Fullstack web developer</h1>
+</div>
+<div class="media">
+  <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/jZPNNZn/img-icons8.png" alt=""></a><br>
+  <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/KmB7tDr/img-icons8.png" alt=""></a>
 </div>
     </div>
 </template>
@@ -39,8 +26,6 @@ export default {
 
 <style scoped>
 
-/* NOTE: I only tested this on Google Chrome.*/
-
 body{
   background: #FBD4C5;
 }
@@ -50,10 +35,29 @@ body{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 13.5%;
+  background-image: url('https://i.ibb.co/ZWZGh0m/B-W-removebg-preview.png');
+  background-repeat: no-repeat;
+  background-size: center;
+  height: 80vh;
 }
 
+
 .container h1:nth-child(1) {
+  opacity: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: auto auto auto auto;
+  background: linear-gradient(to right,white, grey, white);
+  font-weight: 400;
+  font-size: 100px;  
+  width: 680px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink 0.5s step-end infinite alternate;
+}
+
+.container h1:nth-child(2) {
   color: #355c7d;
   font-family: 'Fira Code', monospace;
   font-weight: 800;
@@ -62,24 +66,9 @@ body{
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
-  /* width: 170px; */
+  width: 250px;
   animation: type 2s steps(40,end) forwards;
 }
-
-.container h1:nth-child(2) {
-  opacity: 0;
-  font-family: "Work Sans", sans-serif;
-  margin: 0 auto auto auto;
-  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
-  font-weight: 800;
-  font-size: 100px;  
-  width: 530px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  overflow: hidden;
-  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
-}
-
 @keyframes shring-animation {
   0% {
     background-position: 0 0;
@@ -89,17 +78,15 @@ body{
   1% {
     background-position: 0 0;
     opacity: 1;
-    border-right: 1px solid orange;
+
   }
   50% {
     background-position: 150px 0;
     opacity: 1;
-    border-right: 1px solid orange;
   }
   100% {
     background-position: 400px 0;
     opacity: 1;
-    border-right: 1px solid orange;
   }
 }
 
@@ -122,7 +109,7 @@ body{
 }
 
 
-/* a img:hover{
+a img:hover{
   width: 30px;
   margin: 3px;
   border-radius: 3px;
@@ -142,85 +129,14 @@ a img{
   border-radius: 30%;
 }
 }
-@media screen and (min-width: 500px){
-  img{
-  height: 400px;
-  width: 500px;
-  border-radius: 30%;
-}
-} */
-/* @keyframes jump {  
-  25% {
-    transform: translateY(0);
-  }
-  
-  50% {
-    transform: translateY(-0.5em);
-  }
-  
-  75% {
-    transform: translateY(50);
-  }
- 
-} */
 
-/* .typing {
-  display: inline-flex;
-  height: 1rem;
-  width: min-content;
-  align-items: flex-end;
+/* media icons */
+.media{
+  justify-content: end;
+  align-items: end;
 }
 
-p{
-  font-size: 28px;
-  color:whitesmoke;
-} */
-
-/* .typing span{
-  color: aliceblue;
-  font-size: 50px;
-  font-weight: 600;
-  font-family: "Rye", serif;
-  font-family: 'Playfair', serif;
-} */
-
-/* @media screen and (min-width: 300px) {
-  .typing span{
-    font-size: 15px;
-  }
-  p{
-  font-size: 18px;
-  color: aquamarine;
-}
-}
-@media screen and (min-width: 500px) {
-  .typing span{
-    font-size: 35px;
-  }
-}
-@media screen and (min-width: 700px) {
-  .typing span{
-    font-size: 50px;
-  }
-}
-
-.typing span {
-  border-radius: 50%;
-  margin: 0 0.1em;
-  animation: jump 3000ms infinite;
-}
-
-.typing span:nth-child(2) {
-  animation-delay: 250ms;
-}
-
-.typing span:nth-child(3) {
-  animation-delay: 500ms;
-}
-
-.typing span:nth-child(4) {
-  animation-delay: 750ms;
-} */
+/* Background */
 .container-fluid {
 
   height: 100vh;

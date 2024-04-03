@@ -9,23 +9,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav fs-5">
         <li class="nav-item">
-          <router-link to="/home" class="nav-link" href="home">Home</router-link>
-           
+          <router-link to="/home" class="nav-link" href="home">Home  |</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link" href="about">About</router-link>
+          <router-link to="/about" class="nav-link" href="about">About |</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/resume" class="nav-link" href="resume">Resume</router-link>
+          <router-link to="/resume" class="nav-link" href="resume">Education & Experience |</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/projects" class="nav-link" href="projects">Projects</router-link>
+          <router-link to="/projects" class="nav-link" href="projects">Projects |</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/review" class="nav-link" href="review">Reviews</router-link>
+          <router-link to="/review" class="nav-link" href="review">Reviews |</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/contact" class="nav-link" href="contact">Contacts</router-link>
+          <router-link to="/contact" class="nav-link" href="contact">Contacts </router-link>
         </li>
       </ul>
     </div>

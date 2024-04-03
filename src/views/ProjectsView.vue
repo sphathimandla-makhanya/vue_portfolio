@@ -45,17 +45,17 @@ export default {
 </script>
 
 <style scoped>
-.proj{
+/* .proj{
   background-color: cadetblue;
-}
+} */
 
 h1{
   font-weight: 600;
-  color:black;
+  color: whitesmoke;
 }
 
 .card-body{
-  color:aliceblue;
+  color: whitesmoke;
   font-family: 'Playfair', serif;
 }
 

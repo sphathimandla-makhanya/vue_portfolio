@@ -4,7 +4,7 @@
       <div class="row">
         <h1>{{ $store.state.about.heading }}</h1>
         <div class="col m-5">
-          <ul class="list-group list-group-item-dark list-group-flush">
+          <ul class="list-group list-group-item list-group-flush">
             <li class="list-group-item list-group-item-dark">S'phathimandla Makhanya</li>
             <li class="list-group-item ">Gender: Male</li>
             <li class="list-group-item list-group-item-dark">Gender: Male</li>
@@ -42,7 +42,7 @@ h1{
   /* font-family: 'Rye', serif; */
   font-family: 'Playfair', serif;
   font-weight: 600;
-  color: #101011;
+  color: whitesmoke;
   /* color: white; */
 }
 #image{
@@ -51,13 +51,12 @@ h1{
   border-radius:5px;
 }
 .about{
-  background-color: cadetblue;
-  /* background-color: #3d5861; */
+  background-color: transparent;
 }
 
 #container-about{
   font-family: 'Playfair', serif;
-  color:#101011;
+  color: whitesmoke;
   /* color:white; */
   font-size:105%;
 }

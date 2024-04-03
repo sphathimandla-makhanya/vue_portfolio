@@ -1,7 +1,9 @@
 <template>
   <NavbarComp/>
-  <!-- <SpinnerComp/> -->
-  <router-view/>
+  <div class="template">
+    <!-- <SpinnerComp/> -->
+    <router-view/>
+  </div>
   <FooterComp/>
 </template>
 
@@ -40,5 +42,39 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.template{
+
+height: 100%;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+
+/* background: #121212;  */
+background: linear-gradient(
+  125deg,
+  #121212 25%,
+  #1a1a1a 25%,
+  #1a1a1a 50%,
+  #121212 50%,
+  #121212 75%,
+  #1a1a1a 75%,
+  #1a1a1a 100%
+);
+background-size: auto;
+
+/* Animation */
+animation: move 2s linear infinite;
+}
+
+@keyframes move {
+0% {
+  background-position: 0 0;
+}
+100% {
+  background-position: 40px 40px;
+}
 }
 </style>
