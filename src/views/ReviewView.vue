@@ -42,10 +42,6 @@ mounted(){
 </script>
 
 <style scoped>
-h1{
-  font-weight: 600;
-  color: whitesmoke;
-}
 .card {
   position: relative;
   width: 370px;

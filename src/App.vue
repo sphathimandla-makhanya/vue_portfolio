@@ -65,6 +65,7 @@ background: linear-gradient(
 );
 background-size: auto;
 
+
 /* Animation */
 animation: move 2s linear infinite;
 }
@@ -76,5 +77,12 @@ animation: move 2s linear infinite;
 100% {
   background-position: 40px 40px;
 }
+}
+
+/* fonts */
+h1{
+  font-family: 'Playfair', serif;
+  font-weight: 600;
+  color: whitesmoke;
 }
 </style>

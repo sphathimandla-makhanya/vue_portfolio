@@ -20,10 +20,10 @@
            </div>
     </div> -->
 
-    <div class="container">                      
+    <div class="container" id="edu">                      
     <div class="row text-center justify-content-center mb-3">
         <div class="col-xl-6 col-lg-8">
-            <h2 class="font-weight-bold">Education</h2>
+            <h1 class="font-weight-bold">Education</h1>
             <!-- <p class="text-muted">We’re very proud of the path we’ve taken. Explore the history that made us the company we are today.</p> -->
         </div>
     </div>
@@ -60,11 +60,10 @@
     </div>
 </div>
 <hr>
-<div class="container">                      
+<div class="container" id="exp">                      
     <div class="row text-center justify-content-center mb-3">
         <div class="col-xl-6 col-lg-8">
-            <h2 class="font-weight-bold">Experience</h2>
-            <!-- <p class="text-muted">We’re very proud of the path we’ve taken. Explore the history that made us the company we are today.</p> -->
+            <h1 class="font-weight-bold">Experience</h1>
         </div>
     </div>
 
@@ -93,8 +92,8 @@
     </div>
 </div>
       <hr><br>
-    
-      <div class="container d-flex">
+      <h1>Skills</h1>
+      <div class="container d-flex" id="skills">
         <div class="row row-cols-1 row-cols-md-4 g-3 justify-content-center align-items-center">
         <div v-for="skill in $store.state.skills" :key="skill" >
             <div class="col-12">
@@ -144,9 +143,6 @@ mounted(){
   font-family: 'Playfair', serif;
   color:whitesmoke;
   font-size:105%;
-}
-h1{
-  font-weight: 600;
 }
 h3{
   /* font-family: 'Rye', serif; */
@@ -228,5 +224,31 @@ body{margin-top:20px;}
     min-width: 3rem;
     border-radius: 6.25rem;
     opacity: .5
+}
+
+/* animation */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+#edu {
+  animation: slideInFromLeft 1.2s ease forwards;
+}
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+#exp {
+  animation: slideInFromRight 1.2s ease forwards;
 }
 </style>

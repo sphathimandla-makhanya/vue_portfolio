@@ -3,10 +3,10 @@
      <div class = "container">
   <h1>S'phathimandla Makhanya</h1>
   <h1>Fullstack web developer</h1>
-</div>
-<div class="media">
-  <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/jZPNNZn/img-icons8.png" alt=""></a><br>
-  <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/KmB7tDr/img-icons8.png" alt=""></a>
+  <div class="media">
+    <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/jZPNNZn/img-icons8.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/KmB7tDr/img-icons8.png" alt=""></a>
+  </div>
 </div>
     </div>
 </template>
@@ -39,14 +39,16 @@ body{
   background-image: url('https://i.ibb.co/ZWZGh0m/B-W-removebg-preview.png');
   background-repeat: no-repeat;
   background-size: center;
+  background-position-x: left;
   height: 80vh;
 }
 
 
 .container h1:nth-child(1) {
   opacity: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: auto auto auto auto;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Playfair', serif;
+  margin: auto 20% auto auto;
   background: linear-gradient(to right,white, grey, white);
   font-weight: 400;
   font-size: 100px;  
@@ -62,7 +64,7 @@ body{
   font-family: 'Fira Code', monospace;
   font-weight: 800;
   font-size: 20px;
-  margin: 0 0 0 35%;
+  margin: auto auto auto auto;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
@@ -109,6 +111,10 @@ body{
 }
 
 
+/* media icons */
+.media{
+  margin-top: 2%;
+}
 a img:hover{
   width: 30px;
   margin: 3px;
@@ -121,19 +127,6 @@ a img{
   width: 25px;
   margin: 3px;
   border-radius: 3px;
-}
-@media screen and (min-width: 300px){
-  img{
-  height: 250px;
-  width: 270px;
-  border-radius: 30%;
-}
-}
-
-/* media icons */
-.media{
-  justify-content: end;
-  align-items: end;
 }
 
 /* Background */
@@ -169,6 +162,52 @@ a img{
   100% {
     background-position: 40px 40px;
   }
+}
+
+
+
+
+/* media icons */
+.media{
+  margin-top: 5%;
+}
+
+
+
+/* media queries 576px */
+@media screen and (max-width: 768px) {
+.container h1:nth-child(1) {
+  opacity: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: 'Playfair', serif; */
+  margin: 23% auto auto auto;
+  background: linear-gradient(to right,white, grey, white);
+  font-weight: 800;
+  font-size: 32.5px  ;
+  width: 250px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink 0.5s step-end infinite alternate;
+}
+
+.container h1:nth-child(2) {
+  color: #355c7d;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: auto auto auto auto;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 252px;
+  animation: type 2s steps(40,end) forwards;
+}
+
+/* media icons */
+.media{
+  margin-top: 5%;
+}
 }
 
 </style>

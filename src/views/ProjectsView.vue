@@ -45,15 +45,6 @@ export default {
 </script>
 
 <style scoped>
-/* .proj{
-  background-color: cadetblue;
-} */
-
-h1{
-  font-weight: 600;
-  color: whitesmoke;
-}
-
 .card-body{
   color: whitesmoke;
   font-family: 'Playfair', serif;

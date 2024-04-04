@@ -1,75 +1,117 @@
 <template>
   <div class="about">
     <div class="container" id="container-about">
-      <div class="row">
         <h1>{{ $store.state.about.heading }}</h1>
-        <div class="col m-5">
-          <ul class="list-group list-group-item list-group-flush">
-            <li class="list-group-item list-group-item-dark">S'phathimandla Makhanya</li>
-            <li class="list-group-item ">Gender: Male</li>
-            <li class="list-group-item list-group-item-dark">Gender: Male</li>
-            <li class="list-group-item ">Nationality: African</li>
-            <li class="list-group-item list-group-item-dark">Driver's license: C1/10</li>
-            <li class="list-group-item ">Languages: English, Isizulu and IsiXhosa</li>
-            <li class="list-group-item list-group-item-dark">Strong communication and interpersonal skills</li>
-            <li class="list-group-item ">MS Office (Excel, Power point, Word, Outlook, Visio)</li>
-          </ul><br>
+        <div class="container mt-5" id="brief">
+          <!-- <p>{{ $store.state.about.description}}</p>
+          <p>{{ $store.state.about.hobbies }}</p><br> -->
+          <p>I'm an open-minded individual passionate about lifelong learning, especially in the field of web development. Residing in Cape Town, Langa township area, I seek opportunities that allow me to apply my skills, foster growth, and advance my career.
+
+          I enjoy creating flexible user experiences and taking on new coding challenges as part of my passion for technology. Aside from computing, I enjoy food, watching animations, and going on outdoor activities.</p>
         </div>
-        <div class="col m-5 ">
-          <img id="image" :src="$store.state.about.img" class="mb-3">
-          <p>{{ $store.state.about.description}}</p>
-          <p>{{ $store.state.about.hobbies }}</p><br>
+        <div class="card-container mt-5">
+          <div class="card mb-3 border-white" style="max-width: 559px; height:250px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../assets/B&W.jpg" class="img-fluid rounded-start" alt="...">
+                <p class="pt-group-item ">Gender: Male</p>
+                <p class="list-group-item ">Nationality: African</p>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-wrap">
+                  <h5 class="card-title text-decoration-underline">Details</h5>
+                  <p class="list-group-item ">Languages: English, Isizulu and IsiXhosa</p>
+                  <p class="list-group-item list-group-item-dark">Driver's license: C1/10</p>
+                  <p class="list-group-item list-group-item-dark">Date of Birth: 08/10/97</p>
+                  <p class="list-group-item list-group-item-dark">Strong communication and interpersonal skills</p>
+                  <p class="list-group-item ">MS Office (Excel, Power point, Word, Outlook, Visio)</p> 
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
   </div>
 </template>
+
 <script>
 export default {
-computed: {
-  fetchData(){
-    this.$store.dispatch('fetchData')
+  computed: {
+    fetchData(){
+      this.$store.dispatch('fetchData')
+    }
+  },
+  mounted(){
+    this.fetchData
   }
-},
-mounted(){
-  this.fetchData
-}
 }
 </script>
 
-<style scoped> 
-h1{
-  /* font-family: 'Rye', serif; */
-  font-family: 'Playfair', serif;
-  font-weight: 600;
-  color: whitesmoke;
-  /* color: white; */
+<style scoped>
+p{
+  margin: 0;
 }
-#image{
-  height: 250px;
-  width: 250px;
-  border-radius:5px;
+.card{
+  background: transparent;
 }
 .about{
   background-color: transparent;
+  height: 100vh;
 }
 
 #container-about{
-  font-family: 'Playfair', serif;
+  font-family: "Nanum Myeongjo", serif;
   color: whitesmoke;
-  /* color:white; */
-  font-size:105%;
+  color: white;
+  font-size: 105%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width:390px){
   #container-about{
-  font-size:90%;
+    font-size: 90%;
+  }
 }
-#image{
-  height: 32%;
-  width: 90%;
-  border-radius:5px;
+
+.list-group-item{
+  background: transparent;
+  color: white;
+  margin: 0;
 }
+
+/* Slide in animation */
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
+
+.card {
+  animation: slideInFromBottom 3s ease forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#brief {
+  animation: zoomIn 3s ease forwards;
+}
+
+
 
 </style>

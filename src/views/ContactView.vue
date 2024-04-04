@@ -77,14 +77,9 @@ export default {
 </script>
 
 <style scoped>
-h1{
-  /* font-family: 'Rye', serif; */
-  font-family: 'Playfair', serif;
-  font-weight: 600;
-  color: whitesmoke;
-}
 .contacts{
-  font-family: 'Playfair', serif;
+  /* font-family: 'Playfair', serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: whitesmoke;
 }
 tr td{
