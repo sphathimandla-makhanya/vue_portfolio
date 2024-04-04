@@ -57,7 +57,7 @@ mounted(){
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 992px) {
 .card{
   width: 258px;
   
