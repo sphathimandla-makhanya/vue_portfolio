@@ -45,7 +45,7 @@ a img{
   border-radius: 3px;
 }
 .row{
-  background-color: rgb(109, 109, 109);
+  background-color: transparent;
 }
 
 </style>

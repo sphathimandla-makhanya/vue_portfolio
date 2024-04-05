@@ -1,10 +1,10 @@
 <template>
-  <NavbarComp/>
   <div class="template">
+    <NavbarComp/>
     <!-- <SpinnerComp/> -->
     <router-view/>
+    <FooterComp/>
   </div>
-  <FooterComp/>
 </template>
 
 <script>

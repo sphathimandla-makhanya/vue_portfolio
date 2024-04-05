@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-top">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary nav ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">SM</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,10 +51,15 @@ export default {
 
 <style scoped>
 .nav{
-  background-color: rgb(109, 109, 109);
+  background-color: transparent;
 }
 .nav-link{
   color: aliceblue;
+  font-family: 'Playfair', serif;
+}
+
+.navbar-brand{
+  color: #387ADF;
   font-family: 'Playfair', serif;
 }
 
