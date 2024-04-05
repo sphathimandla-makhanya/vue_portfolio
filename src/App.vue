@@ -46,14 +46,6 @@ nav a.router-link-exact-active {
 }
 
 .template{
-
-
-/* display: flex;
-justify-content: center;
-align-items: center; */
-
-
-/* background: #121212;  */
 background: linear-gradient(
   125deg,
   #121212 25%,
@@ -65,10 +57,11 @@ background: linear-gradient(
   #1a1a1a 100%
 );
 background-size: auto;
+height: 100%;
 
 
 /* Animation */
-animation: move 2s linear infinite;
+animation: move 40s linear infinite;
 }
 
 @keyframes move {
@@ -76,9 +69,10 @@ animation: move 2s linear infinite;
   background-position: 0 0;
 }
 100% {
-  background-position: 40px 40px;
+  background-position: 800px 800px;
 }
 }
+
 
 /* fonts */
 h1{

@@ -58,8 +58,8 @@ mounted(){
 
 @media screen and (max-width: 992px) {
 .card {
-  /* position: relative; */
-  width: 258px;
+  position: relative; 
+  width: 270px;
   height: 270px;
   justify-content: center;
   align-items: center;
@@ -82,7 +82,7 @@ mounted(){
 }
 
 .card__content {
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
