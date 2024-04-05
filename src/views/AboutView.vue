@@ -3,11 +3,7 @@
     <div class="container" id="container-about">
         <h1>{{ $store.state.about.heading }}</h1>
         <div class="container mt-5" id="brief">
-          <!-- <p>{{ $store.state.about.description}}</p>
-          <p>{{ $store.state.about.hobbies }}</p><br> -->
-          <p>I'm an open-minded individual passionate about lifelong learning, especially in the field of web development. Residing in Cape Town, Langa township area, I seek opportunities that allow me to apply my skills, foster growth, and advance my career.
-
-          I enjoy creating flexible user experiences and taking on new coding challenges as part of my passion for technology. Aside from computing, I enjoy food, watching animations, and going on outdoor activities.</p>
+          <p>I'm an open-minded individual passionate about lifelong learning, especially in the field of web development. Residing in Cape Town, Langa township area, I seek opportunities that allow me to apply my skills, foster growth, and advance my career. I enjoy creating flexible user experiences and taking on new coding challenges as part of my passion for technology. Aside from computing, I enjoy food, watching animations, and going on outdoor activities.</p>
         </div>
         <div class="card-container mt-5">
           <div class="card mb-3 border-white" style="max-width: 559px; height:250px;">
@@ -18,7 +14,7 @@
                 <p class="list-group-item ">Nationality: African</p>
               </div>
               <div class="col-md-8">
-                <div class="card-body text-wrap">
+                <div class="card-body text-wrap mb-5">
                   <h5 class="card-title text-decoration-underline">Details</h5>
                   <p class="list-group-item ">Languages: English, Isizulu and IsiXhosa</p>
                   <p class="list-group-item list-group-item-dark">Driver's license: C1/10</p>
@@ -26,6 +22,14 @@
                   <p class="list-group-item list-group-item-dark">Strong communication and interpersonal skills</p>
                   <p class="list-group-item ">MS Office (Excel, Power point, Word, Outlook, Visio)</p> 
                 </div>
+              </div>
+              <div>
+                <!-- <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/jZPNNZn/img-icons8.png" alt=""></a> -->
+                <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/FYRncsr/github-2.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/Z26L16V/linkedin.png" alt=""></a>
+              </div>
+              <div>
+                <a class="animated-btn" target="blank" href="https://drive.google.com/file/d/1FgdkDz8-FWWg0IGHpNRknuNgL8lyZy9P/view?usp=sharing" download>Download CV</a>
               </div>
             </div>
           </div>
@@ -73,12 +77,6 @@ p{
   justify-content: center;
 }
 
-@media screen and (max-width:390px){
-  #container-about{
-    font-size: 90%;
-  }
-}
-
 .list-group-item{
   background: transparent;
   color: white;
@@ -110,6 +108,19 @@ p{
 
 #brief {
   animation: zoomIn 3s ease forwards;
+  max-width: 70%; /* Adjust the maximum width as needed */
+  margin: auto; /* Center the element horizontally */
+}
+
+/* media queries */
+@media screen and (max-width:768px) {
+  .about{
+  background-color: transparent;
+  height: 235vh;
+}
+img{
+  margin-bottom: 10px;
+}
 }
 
 

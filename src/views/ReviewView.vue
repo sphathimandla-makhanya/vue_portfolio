@@ -43,14 +43,13 @@ mounted(){
 
 <style scoped>
 .card {
-  position: relative;
-  width: 370px;
+  /* position: relative; */
+  width: 300px;
   height: 270px;
-  background-color: #f2f2f2;
   border-radius: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
   perspective: 1000px;
   box-shadow: 0 0 0 5px #ffffff80;
@@ -58,9 +57,12 @@ mounted(){
 }
 
 @media screen and (max-width: 992px) {
-.card{
+.card {
+  /* position: relative; */
   width: 258px;
-  
+  height: 270px;
+  justify-content: center;
+  align-items: center;
 }
 }
 
@@ -88,6 +90,7 @@ mounted(){
   padding: 20px;
   box-sizing: border-box;
   background-color: hsl(0, 44%, 8%);
+  /* background-color: grey; */
   transform: rotateX(-90deg);
   transform-origin: bottom;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -100,7 +103,7 @@ mounted(){
 .card__title {
   margin: 0;
   font-size: 24px;
-  color: #333;
+  color:whitesmoke;
   font-weight: 700;
 }
 
@@ -111,7 +114,7 @@ mounted(){
 .card__description {
   margin: 10px 0 0;
   font-size: 14px;
-  color: #777;
+  color:whitesmoke;
   line-height: 1.4;
 }
 

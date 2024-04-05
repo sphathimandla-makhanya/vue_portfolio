@@ -4,8 +4,8 @@
   <h1>S'phathimandla Makhanya</h1>
   <h1>Fullstack web developer</h1>
   <div class="media">
-    <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/jZPNNZn/img-icons8.png" alt=""></a>
-    <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/KmB7tDr/img-icons8.png" alt=""></a>
+    <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/FYRncsr/github-2.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/Z26L16V/linkedin.png" alt=""></a>
   </div>
 </div>
     </div>
@@ -60,7 +60,7 @@ body{
 }
 
 .container h1:nth-child(2) {
-  color: #355c7d;
+  color: #387ADF;
   font-family: 'Fira Code', monospace;
   font-weight: 800;
   font-size: 20px;
@@ -115,19 +115,19 @@ body{
 .media{
   margin-top: 2%;
 }
-a img:hover{
+/* a img:hover{
   width: 30px;
   margin: 3px;
   border-radius: 3px;
   background-color: rgb(51, 144, 28);
   border-color: blue;
-}
-a img{
-  height: 25px;
-  width: 25px;
+} */
+/* a img{
+  height: 30px;
+  width: 30px;
   margin: 3px;
   border-radius: 3px;
-}
+} */
 
 /* Background */
 .container-fluid {
@@ -192,7 +192,7 @@ a img{
 }
 
 .container h1:nth-child(2) {
-  color: #355c7d;
+  color: #387ADF;
   font-family: 'Fira Code', monospace;
   font-weight: 800;
   font-size: 20px;

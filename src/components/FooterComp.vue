@@ -29,6 +29,7 @@ data(){
 .text{
   font-size: medium;
   color: aliceblue;
+  font-family: "Nanum Myeongjo", serif;
 }
 /* a img:hover{
   width: 30px;

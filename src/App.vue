@@ -29,6 +29,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  position: relative;
 }
 
 nav {
@@ -46,7 +47,7 @@ nav a.router-link-exact-active {
 
 .template{
 
-height: 100%;
+
 /* display: flex;
 justify-content: center;
 align-items: center; */
@@ -84,5 +85,13 @@ h1{
   font-family: 'Playfair', serif;
   font-weight: 600;
   color: whitesmoke;
+}
+
+a img{
+  height: 30px;
+  width: 30px;
+  margin: 3px;
+  margin-bottom: 5px;
+  border-radius: 3px;
 }
 </style>

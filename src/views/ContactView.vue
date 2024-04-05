@@ -2,7 +2,7 @@
   <div class="contacts">
     <h1>Contacts</h1>
     <div class="container">
-      <form action="https://formspree.io/f/mnqkwpdj" method="POST" target="_blank" class="row g-2" @submit.prevent="reloadForm()">
+      <form action="https://submit-form.com/SwxF6yyxs" target="_blank" class="row g-2">
       <div class="col-md-6">
           <label for="firstName" class="form-label">First Name:</label>
           <input type="text" class="form-control" id="firstName" name="firstName" required v-model="firstName">
@@ -78,8 +78,7 @@ export default {
 
 <style scoped>
 .contacts{
-  /* font-family: 'Playfair', serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Nanum Myeongjo", serif;
   color: whitesmoke;
 }
 tr td{

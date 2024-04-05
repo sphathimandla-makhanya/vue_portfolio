@@ -34,25 +34,25 @@
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">2024</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Fullstack Web Development</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">at Life Choices Academy</p>
+                        <p class="h6 mt-3 mb-1" id="yr">2024</p>
+                        <p class="h6 text mb-0 mb-lg-0">Fullstack Web Development</p>
+                        <p class="h6 text mb-0 mb-lg-0">at Life Choices Academy</p>
                     </div>
                 </div>
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">2019</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Bsc Geography and Hydrology</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">at University of Zululand</p>
+                        <p class="h6 mt-3 mb-1" id="yr">2019</p>
+                        <p class="h6 text mb-0 mb-lg-0">Bsc Geography and Hydrology</p>
+                        <p class="h6 text mb-0 mb-lg-0">at University of Zululand</p>
                     </div>
                 </div>
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">2015</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">National Senior Certificate</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">at Siphapheme High School</p>
+                        <p class="h6 mt-3 mb-1" id="yr">2015</p>
+                        <p class="h6 text mb-0 mb-lg-0">National Senior Certificate</p>
+                        <p class="h6 text mb-0 mb-lg-0">at Siphapheme High School</p>
                     </div>
                 </div>
             </div>
@@ -73,18 +73,18 @@
                <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">2024-Present</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Intern</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">at Life Choices Studio</p>
+                        <p class="h6 mt-3 mb-1" id="yr">2024-Present</p>
+                        <p class="h6 text mb-0 mb-lg-0">Intern</p>
+                        <p class="h6 text mb-0 mb-lg-0">at Life Choices Studio</p>
                     </div>
                 </div>  
                 <div class="timeline-step">
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
                         <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">2021-2023</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Geographical Information Systems Intern</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">at National Geo-Spatial Information</p>
-                        <p class="h6 text-muted mb-0 mb-lg-0">Duties: Capturing, manipulation, analysis of data and research.</p>
+                        <p class="h6 mt-3 mb-1" id="yr">2021-2023</p>
+                        <p class="h6 text mb-0 mb-lg-0">Geographical Information Systems Intern</p>
+                        <p class="h6 text mb-0 mb-lg-0">at National Geo-Spatial Information</p>
+                        <p class="h6 text mb-0 mb-lg-0">Duties: Capturing, manipulation, analysis of data and research.</p>
                     </div>
                 </div>
             </div>
@@ -94,14 +94,14 @@
       <hr><br>
       <h1>Skills</h1>
       <div class="container d-flex" id="skills">
-        <div class="row row-cols-1 row-cols-md-4 g-3 justify-content-center align-items-center">
+        <div class="row row-cols-1 row row-cols-md-2 row-cols-lg-3 g-3 justify-content-center align-items-center">
         <div v-for="skill in $store.state.skills" :key="skill" >
             <div class="col-12">
           <div id="card" class="card">
-            <img :src="skill.img" class="card-img-top" alt="">
+            <img :src="skill.img" class="card-img-top" id="img-skill" alt="">
             <div class="card-body">
               <h5 class="card-title">{{ skill.name }}</h5>
-              <p>{{ skill.description }}</p>
+              <!-- <p>{{ skill.description }}</p> -->
             </div>
           </div>
         </div>
@@ -140,8 +140,7 @@ mounted(){
 <style scoped>
 .resume{
   /* background-color: #3d5861; */
-  font-family: 'Playfair', serif;
-  color:whitesmoke;
+  font-family: "Nanum Myeongjo", serif;  color:whitesmoke;
   font-size:105%;
 }
 h3{
@@ -149,13 +148,27 @@ h3{
   font-family: 'Playfair', serif;
 }
 #card{
-  margin-left:10%;
-  margin-right:10%;
-  width: 75%;
+  /* margin-left:25%; */
+  /* margin-right:10%; */
+  margin: auto auto auto auto;
+  width: 120px;
   height: 15%;
   background-color: #3b82f6;
   transition: 0.5s ease in out;
+  justify-content: center;
+  align-items: center;
 }
+
+/* images */
+#img-skill{
+  height: 80%;
+  width: 80%;
+}
+
+.card-title{
+  font-size: 100%;
+}
+
 #card:hover{
   opacity:1;
   box-shadow: 0 4px 15px 0 rgb(255, 255, 255);
@@ -226,6 +239,10 @@ body{margin-top:20px;}
     opacity: .5
 }
 
+#yr{
+  font-weight: bold;
+}
+
 /* animation */
 @keyframes slideInFromLeft {
   from {
@@ -250,5 +267,28 @@ body{margin-top:20px;}
 
 #exp {
   animation: slideInFromRight 1.2s ease forwards;
+}
+
+#skills{
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:768px) {
+  #card{
+  /* margin-left:37%;
+  margin-right:10%; */
+    margin: auto auto auto auto;
+  width: 120px;
+  height: 15%;
+  background-color: #3b82f6;
+  transition: 0.5s ease in out;
+  justify-content: center;
+  align-items: center;
+}
+#skills{
+  justify-content: center;
+  align-items: center;
+}
 }
 </style>
