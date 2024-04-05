@@ -2,7 +2,7 @@
     <div class="container-fluid">
      <div class = "container">
   <h1>S'phathimandla Makhanya</h1>
-  <h1>Fullstack web developer</h1>
+  <h1>Aspiring Web Developer</h1>
   <div class="media">
     <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/FYRncsr/github-2.png" alt=""></a>
     <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/Z26L16V/linkedin.png" alt=""></a>
@@ -12,15 +12,7 @@
 </template>
 
 <script>
-
-
 export default {
-  methods: {
-    downloadResume() {
-      const resumePath = '../assets/SM_CV.pdf';
-      window.open(resumePath, '_blank');
-    }
-  }
 }
 </script>
 
@@ -32,15 +24,15 @@ body{
 
 .container{
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   text-align: center;
-  margin-top: 13.5%;
+  margin-top: 10.5%;
   background-image: url('https://i.ibb.co/ZWZGh0m/B-W-removebg-preview.png');
   background-repeat: no-repeat;
   background-size: center;
   background-position-x: left;
-  height: 80vh;
+  height: 100vh;
 }
 
 
@@ -132,14 +124,14 @@ body{
 /* Background */
 .container-fluid {
 
-  height: 100vh;
+  /* height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 
   
   /* background: #121212;  */
-  background: linear-gradient(
+  /* background: linear-gradient(
     125deg,
     #121212 25%,
     #1a1a1a 25%,
@@ -149,20 +141,20 @@ body{
     #1a1a1a 75%,
     #1a1a1a
   );
-  background-size: auto;
+  background-size: auto; */
 
   /* Animation */
-  animation: move 2s linear infinite;
+  /* animation: move 2s linear infinite; */
 }
 
-@keyframes move {
+/* @keyframes move {
   0% {
     background-position: 0 0;
   }
   100% {
     background-position: 40px 40px;
   }
-}
+} */
 
 
 
