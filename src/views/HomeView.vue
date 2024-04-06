@@ -24,14 +24,12 @@ body{
 
 .container{
   width: 100%;
-  /* margin-left: auto;
-  margin-right: auto; */
   text-align: center;
   margin-top: 10.5%;
   background-image: url('https://i.ibb.co/ZWZGh0m/B-W-removebg-preview.png');
   background-repeat: no-repeat;
   background-size: center;
-  background-position-x: left;
+  background-position: left;
   height: 100vh;
 }
 
@@ -107,66 +105,17 @@ body{
 .media{
   margin-top: 2%;
 }
-/* a img:hover{
-  width: 30px;
-  margin: 3px;
-  border-radius: 3px;
-  background-color: rgb(51, 144, 28);
-  border-color: blue;
-} */
-/* a img{
-  height: 30px;
-  width: 30px;
-  margin: 3px;
-  border-radius: 3px;
-} */
 
-/* Background */
 .container-fluid {
-
-  /* height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-
   
-  /* background: #121212;  */
-  /* background: linear-gradient(
-    125deg,
-    #121212 25%,
-    #1a1a1a 25%,
-    #1a1a1a 50%,
-    #121212 50%,
-    #121212 75%,
-    #1a1a1a 75%,
-    #1a1a1a
-  );
-  background-size: auto; */
-
-  /* Animation */
-  /* animation: move 2s linear infinite; */
 }
-
-/* @keyframes move {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 40px 40px;
-  }
-} */
-
-
-
 
 /* media icons */
 .media{
   margin-top: 5%;
 }
 
-
-
-/* media queries 576px */
+/* media queries 768px */
 @media screen and (max-width: 768px) {
 .container h1:nth-child(1) {
   opacity: 0;
@@ -187,7 +136,7 @@ body{
   color: #387ADF;
   font-family: 'Fira Code', monospace;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 19px;
   margin: auto auto auto auto;
   text-align: left;
   white-space: nowrap;

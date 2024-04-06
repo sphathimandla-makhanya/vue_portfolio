@@ -25,7 +25,6 @@
                 </div>
               </div>
               <div>
-                <!-- <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/jZPNNZn/img-icons8.png" alt=""></a> -->
                 <a href="https://github.com/sphathimandla-makhanya" target="blank"><img src="https://i.ibb.co/FYRncsr/github-2.png" alt=""></a>
                 <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/Z26L16V/linkedin.png" alt=""></a>
               </div>
@@ -109,15 +108,15 @@ p{
 
 #brief {
   animation: zoomIn 3s ease forwards;
-  max-width: 70%; /* Adjust the maximum width as needed */
-  margin: auto; /* Center the element horizontally */
+  max-width: 70%; 
+  margin: auto; 
 }
 
 /* media queries */
 @media screen and (max-width:768px) {
   .about{
   background-color: transparent;
-  height: 275vh;
+  height: 270vh;
 }
 img{
   margin-bottom: 10px;
