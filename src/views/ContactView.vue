@@ -2,7 +2,7 @@
   <div class="contacts">
     <h1>Contacts</h1>
     <div class="container">
-      <form action="https://submit-form.com/SwxF6yyxs" target="_blank" class="row g-2">
+      <form action="https://submit-form.com/SwxF6yyxs" target="_blank" class="row g-2 mb-3">
       <div class="col-md-6">
           <label for="firstName" class="form-label">First Name:</label>
           <input type="text" class="form-control" id="firstName" name="firstName" required v-model="firstName">
@@ -27,7 +27,7 @@
     <div class="container d-sm-block d-md-flex">
       <div class="col">
         <div class="row">
-        <table class="table table-striped mt-2">
+        <table class="table table-striped mt-2 w-80">
           <tbody>
             <tr>
               <th scope="row"><img id="contactImg" src=""></th>
@@ -87,5 +87,14 @@ tr td{
 
 .col iframe{
   width: 280px;
+  height: 280px;
+  border-radius:5px;
+}
+
+@media screen and (max-width:300px){
+  .col iframe{
+  width: 250px;
+  height: 250px;
+}
 }
 </style>
