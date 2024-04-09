@@ -80,6 +80,7 @@ export default {
 .contacts{
   font-family: "Nanum Myeongjo", serif;
   color: whitesmoke;
+  height: 100vh;
 }
 tr td{
   color: aliceblue;

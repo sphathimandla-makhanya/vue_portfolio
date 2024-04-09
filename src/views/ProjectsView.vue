@@ -45,6 +45,9 @@ export default {
 </script>
 
 <style scoped>
+.proj{
+  height: 100vh;
+}
 .card-body{
   color: whitesmoke;
  

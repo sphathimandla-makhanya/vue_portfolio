@@ -1,30 +1,10 @@
 <template>
   <div v-if="$store.state.resume.length>0">
     <div class="resume">
-      <!-- <h1>Education and Experience</h1> -->
-      <!-- <div id="font" class="container d-md-flex d-sm-block align-items-center">
-            <div v-for="resum in $store.state.resume" :key="resum" >
-              <div class="row">
-                <div class="col-sm-12">
-                <h3 id="edu">{{ resum.heading }}</h3>
-              <p>{{ resum.course }}</p> 
-              <p>{{ resum.institution }}</p>
-              <img :src="resum.img1" alt="">
-                </div>
-              <div class="col-sm-12">
-                <h3>{{ resum.heading1 }}</h3>
-                <img :src="resum.img2" alt="">
-                <p>{{ resum.description1 }}</p> 
-              </div>
-              </div>
-           </div>
-    </div> -->
-
     <div class="container" id="edu">                      
     <div class="row text-center justify-content-center mb-3">
         <div class="col-xl-6 col-lg-8">
             <h1 class="font-weight-bold">Education</h1>
-            <!-- <p class="text-muted">We’re very proud of the path we’ve taken. Explore the history that made us the company we are today.</p> -->
         </div>
     </div>
 
@@ -139,9 +119,9 @@ mounted(){
 
 <style scoped>
 .resume{
-  /* background-color: #3d5861; */
   font-family: "Nanum Myeongjo", serif;  color:whitesmoke;
   font-size:105%;
+  height: 100vh;
 }
 h3{
   /* font-family: 'Rye', serif; */

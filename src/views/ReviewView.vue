@@ -59,7 +59,7 @@ mounted(){
 @media screen and (max-width: 992px) {
 .card {
   /* position: relative; */
-  width: 258px;
+  width: 270px;
   height: 270px;
   justify-content: center;
   align-items: center;
@@ -117,5 +117,7 @@ mounted(){
   color:whitesmoke;
   line-height: 1.4;
 }
-
+.test{
+  height: 100vh;
+}
 </style>
