@@ -121,7 +121,7 @@ mounted(){
 .resume{
   font-family: "Nanum Myeongjo", serif;  color:whitesmoke;
   font-size:105%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 h3{
   /* font-family: 'Rye', serif; */
