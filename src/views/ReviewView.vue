@@ -5,14 +5,16 @@
       <h1 id="reviewHead">Reviews</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
         <div v-for="review in $store.state.reviews" :key="review" class="col">
-          <div class="card m-3">
-            <div class="card bg-black">
-              <img class="images" :src="review.img" />
-              <div class="card__content">
-                <p class="card__title">{{ review.person }}</p>
-                <p class="card__description">{{ review.review }}</p>
+          <div class="move">
+            <div class="card m-3">
+              <div class="card bg-black">
+                <img class="images" :src="review.img" />
+                <div class="card__content">
+                  <p class="card__title">{{ review.person }}</p>
+                  <p class="card__description">{{ review.review }}</p>
+                </div>
               </div>
-            </div>
+          </div>
           </div>
         </div>
     </div>
@@ -42,8 +44,14 @@ mounted(){
 </script>
 
 <style scoped>
+.move{
+  margin: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
 .card {
-  /* position: relative; */
+  position: relative;
+  margin: auto auto auto auto;
   width: 300px;
   height: 270px;
   border-radius: 10px;
@@ -82,7 +90,7 @@ mounted(){
 }
 
 .card__content {
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky-top">
+  <div class="">
   <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">SM</a>
@@ -61,6 +61,14 @@ export default {
 .navbar-brand{
   color: #387ADF;
   font-family: 'Playfair', serif;
+}
+
+.navbar-toggler{
+ border-color:white;
+}
+
+.navbar-toggler-icon{
+  color:white;
 }
 
 </style>
