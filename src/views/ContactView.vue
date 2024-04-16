@@ -98,4 +98,9 @@ tr td{
   height: 250px;
 }
 }
+@media screen and (max-width:768px){
+  .contacts{
+  height: fit-content;
+}
+}
 </style>

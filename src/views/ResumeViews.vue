@@ -121,15 +121,11 @@ mounted(){
 .resume{
   font-family: "Nanum Myeongjo", serif;  color:whitesmoke;
   font-size:105%;
-  /* height: 100vh; */
 }
 h3{
-  /* font-family: 'Rye', serif; */
   font-family: 'Playfair', serif;
 }
 #card{
-  /* margin-left:25%; */
-  /* margin-right:10%; */
   margin: auto auto auto auto;
   width: 120px;
   height: 15%;
@@ -256,9 +252,7 @@ body{margin-top:20px;}
 
 @media screen and (max-width:768px) {
   #card{
-  /* margin-left:37%;
-  margin-right:10%; */
-    margin: auto auto auto auto;
+  margin: auto auto auto auto;
   width: 120px;
   height: 15%;
   background-color: #3b82f6;
@@ -266,9 +260,10 @@ body{margin-top:20px;}
   justify-content: center;
   align-items: center;
 }
-#skills{
+/* #skills{
   justify-content: center;
   align-items: center;
-}
+} */
+
 }
 </style>

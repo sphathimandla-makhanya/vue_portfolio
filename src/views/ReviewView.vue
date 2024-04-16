@@ -72,6 +72,9 @@ mounted(){
   justify-content: center;
   align-items: center;
 }
+.test{
+  height: fit-content;
+}
 }
 
 .images{
@@ -85,7 +88,7 @@ mounted(){
 }
 
 .card:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
@@ -102,6 +105,7 @@ mounted(){
   transform: rotateX(-90deg);
   transform-origin: bottom;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .card:hover .card__content {
@@ -112,7 +116,7 @@ mounted(){
   margin: 0;
   font-size: 24px;
   color:whitesmoke;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 .card:hover svg {
@@ -120,12 +124,9 @@ mounted(){
 }
 
 .card__description {
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   font-size: 14px;
-  color:whitesmoke;
-  line-height: 1.4;
-}
-.test{
-  height: 100vh;
+  color:white;
+  line-height: 1.5;
 }
 </style>

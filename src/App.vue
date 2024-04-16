@@ -57,7 +57,7 @@ background: linear-gradient(
   #1a1a1a 100%
 );
 background-size: auto;
-height: 100%;
+height: fit-content;
 
 
 /* Animation */

@@ -75,6 +75,14 @@ export default {
   .card{
   width: 260px;
 }
+.proj{
+  height: fit-content;
+}
+}
+@media screen and (max-width: 992px) {
+.proj{
+  height: fit-content;
+}
 }
 
 .card {
