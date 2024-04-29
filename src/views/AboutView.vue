@@ -113,13 +113,23 @@ p{
 }
 
 /* media queries */
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
   .about{
   background-color: transparent;
-  height: 270vh;
+  height: 125vh;
 }
 img{
   margin-bottom: 10px;
+}
+}
+@media screen and (max-width:768px) {
+  .about{
+  background-color: transparent;
+  height: 220vh;
+}
+img{
+  margin-bottom: 10px;
+
 }
 }
 

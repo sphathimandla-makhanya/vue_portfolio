@@ -2,8 +2,8 @@
   <div v-if="$store.state.reviews.length>0">
     <div class="test">
       <div class="container">
-      <h1 id="reviewHead">Reviews</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
+      <h1 id="reviewHead">Peer Reviews</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 ">
         <div v-for="review in $store.state.reviews" :key="review" class="col">
           <div class="move">
             <div class="card m-3">
@@ -45,12 +45,12 @@ mounted(){
 
 <style scoped>
 .move{
-  margin: auto auto auto auto;
+  /* margin: auto auto auto auto; */
   justify-content: center;
   align-items: center;
 }
 .card {
-  position: relative;
+  /* position: relative; */
   margin: auto auto auto auto;
   width: 300px;
   height: 270px;

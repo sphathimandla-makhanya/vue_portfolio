@@ -3,7 +3,7 @@
     <h1>Projects</h1>
     <div v-if="$store.state.projects.length>0">
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
         <div v-for="project in $store.state.projects" :key="project" class="col">
           <div class="card">
             <div class="card2">
@@ -46,7 +46,7 @@ export default {
 
 <style scoped>
 .proj{
-  height: 100vh;
+  height: 115vh;
 }
 .card-body{
   color: whitesmoke;
@@ -54,9 +54,6 @@ export default {
   font-family: "Nanum Myeongjo", serif;
 }
 
-#project{
-  height: 172px;
-}
 
 #icons-img{
   height: 25px;
@@ -80,6 +77,11 @@ export default {
 }
 }
 @media screen and (max-width: 992px) {
+.proj{
+  height: fit-content;
+}
+}
+@media screen and (max-width: 568px) {
 .proj{
   height: fit-content;
 }
