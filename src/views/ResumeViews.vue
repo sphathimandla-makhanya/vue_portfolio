@@ -43,6 +43,56 @@
 <div class="container" id="exp">                      
     <div class="row text-center justify-content-center mb-3">
         <div class="col-xl-6 col-lg-8">
+            <h1 class="font-weight-bold">Other Training and Badges</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+               <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1" id="yr">2024</p>
+                        <p class="h6 text mb-0 mb-lg-0">Networking Technician Essentials; CISCO</p>
+                    </div>
+                </div>  
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1" id="yr">2024</p>
+                        <p class="h6 text mb-0 mb-lg-0">Operating System Basics; CISCO</p>
+                    </div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1" id="yr">2024</p>
+                        <p class="h6 text mb-0 mb-lg-0">Scum; LS Studio</p>
+                    </div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1" id="yr">2022</p>
+                        <p class="h6 text mb-0 mb-lg-0">Going Places with Spatial Analysis; Esri MOOC training</p>
+                    </div>
+                </div>
+                <div class="timeline-step">
+                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                        <div class="inner-circle"></div>
+                        <p class="h6 mt-3 mb-1" id="yr">2021</p>
+                        <p class="h6 text mb-0 mb-lg-0">ArcGIS Pro Basic Training; Esri South Africa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container" id="exp">                      
+    <div class="row text-center justify-content-center mb-3">
+        <div class="col-xl-6 col-lg-8">
             <h1 class="font-weight-bold">Experience</h1>
         </div>
     </div>
@@ -62,7 +112,7 @@
                     <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
                         <div class="inner-circle"></div>
                         <p class="h6 mt-3 mb-1" id="yr">2021-2023</p>
-                        <p class="h6 text mb-0 mb-lg-0">Geographical Information Systems Intern</p>
+                        <p class="h6 text mb-0 mb-lg-0">Geographical Information Systems</p>
                         <p class="h6 text mb-0 mb-lg-0">at National Geo-Spatial Information</p>
                         <p class="h6 text mb-0 mb-lg-0">Duties: Capturing, manipulation, analysis of data and research.</p>
                     </div>

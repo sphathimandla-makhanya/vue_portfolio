@@ -3,7 +3,7 @@
     <div class="container" id="container-about">
         <h1>{{ $store.state.about.heading }}</h1>
         <div class="container mt-5" id="brief">
-          <p>I'm an open-minded individual passionate about lifelong learning, especially in the field of web development. I enjoy creating flexible user experiences and taking on new coding challenges as part of my passion for technology. I seek opportunities that will allow me to apply my skills, foster growth, and advance my career. Aside from computing, I enjoy watching animations, and going on outdoor activities.</p>
+          <p>I possess a diverse skill set as both an aspiring web developer and in Geographic Information Systems (GIS). Completed a rigorous six-month web development bootcamp, mastering modern technologies to design and develop user-friendly and interactive web applications. Additionally, I have two years of hands-on experience in GIS, with expertise in the full data life cycle. Proficient in database  management. Ready to leverage this unique combination of skills to drive innovation in any project or team.</p>
         </div>
         <div class="card-container mt-5">
           <div class="card mb-3 border-white" style="max-width: 559px; height:250px;">
