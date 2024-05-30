@@ -1,7 +1,7 @@
 <template>
   <div v-if="$store.state.resume.length>0">
     <div class="resume">
-    <div class="container" id="edu">                      
+    <div class="container-fluid" id="edu">                      
     <div class="row text-center justify-content-center mb-3">
         <div class="col-xl-6 col-lg-8">
             <h1 class="font-weight-bold">Education</h1>
@@ -40,13 +40,13 @@
     </div>
 </div>
 <hr>
+<BadgesComp/>
 <div class="container" id="exp">                      
     <div class="row text-center justify-content-center mb-3">
         <div class="col-xl-6 col-lg-8">
             <h1 class="font-weight-bold">Other Training and Badges</h1>
         </div>
     </div>
-
     <div class="row">
         <div class="col">
             <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
@@ -148,9 +148,11 @@
 
 <script>
 import SpinnerComp from '@/components/SpinnerComp.vue'
+import BadgesComp from '@/components/BadgesComp.vue'
 export default {
   components:{
-    SpinnerComp
+    SpinnerComp,
+    BadgesComp
   },
 computed: {
   resumeData(){
