@@ -29,7 +29,7 @@
                 <a href="https://www.linkedin.com/in/s-phathimandla-makhanya-0b80391aa/" target="blank"><img src="https://i.ibb.co/Z26L16V/linkedin.png" alt=""></a>
               </div>
               <div>
-                <a class="animated-btn" target="blank" href="https://drive.google.com/file/d/1hKaEkU3c-TFMwkhCraXWhCCGDJY2-jF-/view?usp=sharing" download>Download CV</a>
+                <a class="animated-btn" target="blank" href="https://drive.google.com/file/d/10hnT6lehprYMgq8jQOmpxvThoWfPK-LU/view?usp=sharing" download>Download CV</a>
               </div>
             </div>
           </div>

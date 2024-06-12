@@ -2,15 +2,15 @@
     <div>
       <div class="float-buttons">
         <a class="badge" @click="openZoom('https://i.ibb.co/FKR891V/SCRUM-2.png')">
-          <img src="https://i.ibb.co/FKR891V/SCRUM-2.png" alt="">
+          <img id="badge" src="https://i.ibb.co/FKR891V/SCRUM-2.png" alt="">
           <span class="hover-text">Click me</span>
         </a>
         <a class="badge" @click="openZoom('https://i.ibb.co/8NLcwzM/operating-systems-basics.png')">
-          <img src="https://i.ibb.co/8NLcwzM/operating-systems-basics.png" alt="">
+          <img id="badge" src="https://i.ibb.co/8NLcwzM/operating-systems-basics.png" alt="">
           <span class="hover-text">Click me</span>
         </a>
         <a class="badge" @click="openZoom('https://i.ibb.co/QPVBHJX/network-technician-career-path.png')">
-          <img src="https://i.ibb.co/QPVBHJX/network-technician-career-path.png" alt="">
+          <img id="badge" src="https://i.ibb.co/QPVBHJX/network-technician-career-path.png" alt="">
           <span class="hover-text">Click me</span>
         </a>
       </div>
@@ -62,6 +62,10 @@
     transition: transform 0.3s ease-in-out;
   }
   
+  #badge{
+    width: 45px;
+    height: 45px;
+  }
   .hover-text {
     position: absolute;
     bottom: 10px;
